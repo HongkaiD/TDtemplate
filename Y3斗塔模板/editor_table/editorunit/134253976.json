@@ -38,7 +38,7 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 65537, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
     "build_res_cost_list": {
@@ -58,12 +58,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "common_ability_list": [
-        [
-            134251729, 
-            1
-        ]
-    ], 
+    "common_ability_list": [], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -71,7 +66,7 @@
             1
         ]
     }, 
-    "common_atk_type": 1, 
+    "common_atk_type": 999, 
     "content": "strength", 
     "copper coin": 0, 
     "critical_chance": 0.0, 
@@ -155,7 +150,7 @@
     "max_stock": 5, 
     "mini_map_icon": 106742, 
     "mini_map_icon_scale": 1.0, 
-    "model": 205067, 
+    "model": 205063, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 

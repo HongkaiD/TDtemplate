@@ -33,6 +33,16 @@
                 "skill": 0
             }
         }, 
+        "207368250": {
+            "variable_dict": {
+                "INTEGER": {
+                    "n": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "n": 0
+            }
+        }, 
         "269934647": {
             "variable_dict": {
                 "UI_PREFAB_INSTANCE": {
@@ -41,6 +51,16 @@
             }, 
             "variable_length_dict": {
                 "\u5361\u724c": 0
+            }
+        }, 
+        "399581244": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "\u5c0f\u5175": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u5c0f\u5175": 0
             }
         }, 
         "503767069": {
@@ -173,6 +193,20 @@
                 "Player": 0, 
                 "pos": 10, 
                 "tips_size": 10
+            }
+        }, 
+        "1247555614": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "last_main_unit": 0
+                }, 
+                "UNIT_GROUP": {
+                    "unit_group": []
+                }
+            }, 
+            "variable_length_dict": {
+                "last_main_unit": 0, 
+                "unit_group": 0
             }
         }, 
         "1270726670": {
@@ -333,6 +367,50 @@
                 "unit": 0
             }
         }, 
+        "1599877143": {
+            "variable_dict": {
+                "DYNAMIC_TRIGGER_INSTANCE": {
+                    "trig": 0
+                }, 
+                "INTEGER": {
+                    "i": 0, 
+                    "n": 0
+                }, 
+                "STRING": {
+                    "hour": "", 
+                    "min": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "hour": 0, 
+                "i": 0, 
+                "min": 0, 
+                "n": 0, 
+                "trig": 0
+            }
+        }, 
+        "1717317687": {
+            "variable_dict": {
+                "INTEGER": {
+                    "tab_index": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "tab_index": 0
+            }
+        }, 
+        "1817980970": {
+            "variable_dict": {
+                "INTEGER": {
+                    "cindex": 0, 
+                    "rindex": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "cindex": 0, 
+                "rindex": 0
+            }
+        }, 
         "1872433179": {
             "variable_dict": {
                 "ITEM_ENTITY": {
@@ -345,6 +423,20 @@
             "variable_length_dict": {
                 "item": 0, 
                 "player": 0
+            }
+        }, 
+        "1968975901": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "last_main_unit": 0
+                }, 
+                "UNIT_GROUP": {
+                    "unit_group": []
+                }
+            }, 
+            "variable_length_dict": {
+                "last_main_unit": 0, 
+                "unit_group": 0
             }
         }, 
         "2079805465": {
@@ -375,6 +467,44 @@
                 "rindex": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "2086416425": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0, 
+                    "index": 0, 
+                    "row": 0
+                }, 
+                "PLAYER": {
+                    "player": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "index": 0, 
+                "player": 0, 
+                "row": 0
+            }
+        }, 
+        "2119970869": {
+            "variable_dict": {
+                "FLOAT": {
+                    "dis": 0.0
+                }
+            }, 
+            "variable_length_dict": {
+                "dis": 0
+            }
+        }, 
+        "2119970870": {
+            "variable_dict": {
+                "FLOAT": {
+                    "dis": 0.0
+                }
+            }, 
+            "variable_length_dict": {
+                "dis": 0
             }
         }, 
         "2131804182": {

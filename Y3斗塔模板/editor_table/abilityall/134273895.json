@@ -90,7 +90,7 @@
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
     "can_bs_interrupt": true, 
-    "can_cache": true, 
+    "can_cache": false, 
     "can_cast_interrupt": false, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
@@ -109,7 +109,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "collection_animation": "", 
@@ -158,7 +158,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "influenced_by_cd_reduce": true, 
+    "influenced_by_cd_reduce": false, 
     "influenced_by_move": true, 
     "is_autocast": false, 
     "is_charge_ability": false, 
