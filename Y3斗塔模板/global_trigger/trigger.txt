@@ -1,0 +1,52 @@
+{
+    "group": [], 
+    "key": -1, 
+    "key_order": {
+        "KF0OsLKSEe2XPAD-+E6xse": 1
+    }, 
+    "name": "trigger", 
+    "sub_trigger": {
+        "0": {
+            "__tuple__": true, 
+            "items": [
+                1875570739, 
+                "New trigger"
+            ]
+        }, 
+        "2": {
+            "__tuple__": true, 
+            "items": [
+                1872433179, 
+                "t1"
+            ]
+        }, 
+        "3": {
+            "__tuple__": true, 
+            "items": [
+                2094870556, 
+                "t2"
+            ]
+        }, 
+        "4": {
+            "__tuple__": true, 
+            "items": [
+                503767069, 
+                "t1_2"
+            ]
+        }, 
+        "5": {
+            "__tuple__": true, 
+            "items": [
+                269934647, 
+                "\u521d\u7ea7\u6c42\u8d24"
+            ]
+        }, 
+        "6": {
+            "__tuple__": true, 
+            "items": [
+                651382804, 
+                "\u62bd\u5361\u6548\u679c"
+            ]
+        }
+    }
+}

@@ -1,0 +1,263 @@
+{
+ "f": [
+  {
+   "__tuple__": true, 
+   "items": [
+    "", 
+    0, 
+    2147483647, 
+    "code_explorer_custom_root_folder_name"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    0, 
+    "IhoaAB+9Ee6XLzDQQuc0bt", 
+    "\u62bd\u5361"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    1, 
+    "fY5CgB71Ee6bhzDQQuc0bp", 
+    "\u5efa\u9020"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647/fY5CgB71Ee6bhzDQQuc0bp", 
+    0, 
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    "3\u7ea7"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647/fY5CgB71Ee6bhzDQQuc0bp", 
+    1, 
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    "2\u7ea7"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647/fY5CgB71Ee6bhzDQQuc0bp", 
+    2, 
+    "gOIocB71Ee6iATDQQuc0br", 
+    "1\u7ea7"
+   ]
+  }
+ ], 
+ "d": {
+  "134253282": {
+   "__tuple__": true, 
+   "items": [
+    "IhoaAB+9Ee6XLzDQQuc0bt", 
+    0
+   ]
+  }, 
+  "134251729": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    0
+   ]
+  }, 
+  "134275890": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    1
+   ]
+  }, 
+  "134258707": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    2
+   ]
+  }, 
+  "134261222": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    3
+   ]
+  }, 
+  "134279054": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    4
+   ]
+  }, 
+  "134247595": {
+   "__tuple__": true, 
+   "items": [
+    "hsFNIR71Ee6IFTDQQuc0bn", 
+    5
+   ]
+  }, 
+  "134232176": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    0
+   ]
+  }, 
+  "134271654": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    1
+   ]
+  }, 
+  "134233754": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    2
+   ]
+  }, 
+  "134242901": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    3
+   ]
+  }, 
+  "134235938": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    4
+   ]
+  }, 
+  "134242512": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    5
+   ]
+  }, 
+  "134261025": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    6
+   ]
+  }, 
+  "134255719": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    7
+   ]
+  }, 
+  "134252861": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    8
+   ]
+  }, 
+  "134236242": {
+   "__tuple__": true, 
+   "items": [
+    "hDs+gB71Ee6r7TDQQuc0bv", 
+    9
+   ]
+  }, 
+  "134238931": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    0
+   ]
+  }, 
+  "134273895": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    1
+   ]
+  }, 
+  "134239450": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    2
+   ]
+  }, 
+  "134279144": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    3
+   ]
+  }, 
+  "134277753": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    4
+   ]
+  }, 
+  "134254131": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    5
+   ]
+  }, 
+  "134254036": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    6
+   ]
+  }, 
+  "134249407": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    7
+   ]
+  }, 
+  "134271726": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    8
+   ]
+  }, 
+  "134237374": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    9
+   ]
+  }, 
+  "134261603": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    10
+   ]
+  }, 
+  "134229561": {
+   "__tuple__": true, 
+   "items": [
+    "gOIocB71Ee6iATDQQuc0br", 
+    11
+   ]
+  }
+ }
+}

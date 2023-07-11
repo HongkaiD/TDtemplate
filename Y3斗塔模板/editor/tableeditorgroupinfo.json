@@ -1,0 +1,44 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "\u82f1\u96c4\u8868"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "hero"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "hero.pool"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u7f81\u7eca\u8868"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u8fdb\u653b\u6ce2\u6b21"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   7, 
+   "\u62bd\u5361UI"
+  ]
+ }
+]

@@ -1,0 +1,2562 @@
+{
+    "design_resolution": {
+        "__tuple__": true, 
+        "items": [
+            1920, 
+            1080
+        ]
+    }, 
+    "design_resolution_index": 0, 
+    "first_init_ui_editor": true, 
+    "prefab_data": {
+        "23bb19eb-bdef-4dcc-afe5-a1a1ec26edfb": {
+            "data": {
+                "children": [
+                    {
+                        "bar_status": true, 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    80.0, 
+                                    100.0, 
+                                    20.0, 
+                                    20.0
+                                ], 
+                                "angle": [
+                                    0.0, 
+                                    0.0, 
+                                    30.0
+                                ], 
+                                "camera_viewport": 45, 
+                                "children": [], 
+                                "event_list": [], 
+                                "focus_pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.0, 
+                                        1.0, 
+                                        0.0
+                                    ]
+                                }, 
+                                "model": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "editor_model", 
+                                        4010
+                                    ]
+                                }, 
+                                "name": "\u6a21\u578b", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        125.0, 
+                                        210.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        50.0, 
+                                        52.5
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        210.0, 
+                                        220.0
+                                    ]
+                                }, 
+                                "type": 6
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    true, 
+                                    30.0, 
+                                    320.0, 
+                                    0.0, 
+                                    10.0
+                                ], 
+                                "children": [], 
+                                "event_list": [], 
+                                "image": 131974, 
+                                "name": "\u59d3\u540d\u80cc\u666f", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        120.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        48.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        240.0, 
+                                        50.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    false, 
+                                    true, 
+                                    30.5, 
+                                    320.5, 
+                                    139.5, 
+                                    19.5
+                                ], 
+                                "alignment": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        8
+                                    ]
+                                }, 
+                                "children": [], 
+                                "event_list": [], 
+                                "font": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "HKYuanW9", 
+                                        24
+                                    ]
+                                }, 
+                                "font_color": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        123, 
+                                        100, 
+                                        236, 
+                                        255
+                                    ]
+                                }, 
+                                "name": "\u59d3\u540d", 
+                                "open_adapter": true, 
+                                "over_pattern": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        185.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        74.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        91.0, 
+                                        49.0
+                                    ]
+                                }, 
+                                "text": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "\u5173\u7fbd", 
+                                        false
+                                    ]
+                                }, 
+                                "type": 3
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    305.0, 
+                                    65.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca1\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca1", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    305.0, 
+                                    65.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca2\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca2", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    340.0, 
+                                    30.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca3\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca3", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    340.0, 
+                                    30.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca4\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca4", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    false, 
+                                    40.0, 
+                                    330.0, 
+                                    30.0, 
+                                    190.0
+                                ], 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            false, 
+                                            0.0, 
+                                            0.0, 
+                                            30.000001907348633, 
+                                            -22.910001754760742
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "HKXinZongYiW7", 
+                                                20
+                                            ]
+                                        }, 
+                                        "name": "label_5", 
+                                        "open_adapter": true, 
+                                        "over_pattern": true, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                41.45500183105469, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "pos_percent": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                138.18333943684894, 
+                                                50.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                22.90999984741211, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "2", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 131775, 
+                                "name": "\u4eba\u53e3", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        45.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        18.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }
+                        ], 
+                        "disabled_picture": 101097, 
+                        "event_list": [
+                            {
+                                "action_list": [
+                                    {
+                                        "anim_duration": 1.0, 
+                                        "anim_id": null, 
+                                        "anim_type": 7, 
+                                        "comp": "b8dcbcfa-f7a7-4cc6-a519-e91078598b05", 
+                                        "ease_type": 0, 
+                                        "name": "Hide_3", 
+                                        "open_timeline": true, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "enabled": true, 
+                                "name": "\u53611_0", 
+                                "sound_id": null, 
+                                "type": 1
+                            }
+                        ], 
+                        "name": "\u53611", 
+                        "normal_picture": 101097, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                125.0, 
+                                200.0
+                            ]
+                        }, 
+                        "press_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                255, 
+                                235, 
+                                153, 
+                                255
+                            ]
+                        }, 
+                        "press_picture": 101097, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                250.0, 
+                                400.0
+                            ]
+                        }, 
+                        "suspend_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                166, 
+                                166, 
+                                166, 
+                                255
+                            ]
+                        }, 
+                        "suspend_picture": 101097, 
+                        "type": 1
+                    }
+                ], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "name": "layout_1", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "23bb19eb-bdef-4dcc-afe5-a1a1ec26edfb", 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        250.0, 
+                        400.0
+                    ]
+                }, 
+                "type": 7
+            }, 
+            "name": "2\u7ea7\u5361"
+        }, 
+        "58e922b7-0c6a-4f61-af6e-04cf45b2df3c": {
+            "data": {
+                "children": [
+                    {
+                        "bar_status": true, 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    80.0, 
+                                    100.0, 
+                                    20.0, 
+                                    20.0
+                                ], 
+                                "angle": [
+                                    0.0, 
+                                    0.0, 
+                                    30.0
+                                ], 
+                                "camera_viewport": 45, 
+                                "children": [], 
+                                "event_list": [], 
+                                "focus_pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.0, 
+                                        1.0, 
+                                        0.0
+                                    ]
+                                }, 
+                                "model": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "editor_model", 
+                                        4010
+                                    ]
+                                }, 
+                                "name": "\u6a21\u578b", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        125.0, 
+                                        210.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        50.0, 
+                                        52.5
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        210.0, 
+                                        220.0
+                                    ]
+                                }, 
+                                "type": 6
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    true, 
+                                    30.0, 
+                                    320.0, 
+                                    0.0, 
+                                    10.0
+                                ], 
+                                "children": [], 
+                                "event_list": [], 
+                                "image": 131974, 
+                                "name": "\u59d3\u540d\u80cc\u666f", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        120.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        48.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        240.0, 
+                                        50.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    false, 
+                                    true, 
+                                    30.5, 
+                                    320.5, 
+                                    139.5, 
+                                    19.5
+                                ], 
+                                "alignment": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        8
+                                    ]
+                                }, 
+                                "children": [], 
+                                "event_list": [], 
+                                "font": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "HKYuanW9", 
+                                        24
+                                    ]
+                                }, 
+                                "font_color": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        20, 
+                                        163, 
+                                        228, 
+                                        255
+                                    ]
+                                }, 
+                                "name": "\u59d3\u540d", 
+                                "open_adapter": true, 
+                                "over_pattern": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        185.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        74.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        91.0, 
+                                        49.0
+                                    ]
+                                }, 
+                                "text": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "\u5173\u7fbd", 
+                                        false
+                                    ]
+                                }, 
+                                "type": 3
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    305.0, 
+                                    65.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca1\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca1", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    305.0, 
+                                    65.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca2\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca2", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    340.0, 
+                                    30.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca3\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca3", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    340.0, 
+                                    30.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca4\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca4", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    false, 
+                                    40.0, 
+                                    330.0, 
+                                    30.0, 
+                                    190.0
+                                ], 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            false, 
+                                            0.0, 
+                                            0.0, 
+                                            30.000001907348633, 
+                                            -22.910001754760742
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "HKXinZongYiW7", 
+                                                20
+                                            ]
+                                        }, 
+                                        "name": "label_5", 
+                                        "open_adapter": true, 
+                                        "over_pattern": true, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                41.45500183105469, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "pos_percent": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                138.18333943684894, 
+                                                50.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                22.90999984741211, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "1", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 131775, 
+                                "name": "\u4eba\u53e3", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        45.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        18.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }
+                        ], 
+                        "disabled_picture": 101096, 
+                        "event_list": [
+                            {
+                                "action_list": [
+                                    {
+                                        "anim_duration": 1.0, 
+                                        "anim_id": null, 
+                                        "anim_type": 7, 
+                                        "comp": "b8dcbcfa-f7a7-4cc6-a519-e91078598b05", 
+                                        "ease_type": 0, 
+                                        "name": "Hide_3", 
+                                        "open_timeline": true, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "enabled": true, 
+                                "name": "\u53611_0", 
+                                "sound_id": null, 
+                                "type": 1
+                            }
+                        ], 
+                        "name": "\u53611", 
+                        "normal_picture": 101096, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                125.0, 
+                                200.0
+                            ]
+                        }, 
+                        "press_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                255, 
+                                235, 
+                                153, 
+                                255
+                            ]
+                        }, 
+                        "press_picture": 101096, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                250.0, 
+                                400.0
+                            ]
+                        }, 
+                        "suspend_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                166, 
+                                166, 
+                                166, 
+                                255
+                            ]
+                        }, 
+                        "suspend_picture": 101096, 
+                        "type": 1
+                    }
+                ], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "name": "layout_1", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "23bb19eb-bdef-4dcc-afe5-a1a1ec26edfb", 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        250.0, 
+                        400.0
+                    ]
+                }, 
+                "type": 7
+            }, 
+            "name": "1\u7ea7\u5361"
+        }, 
+        "7df3d99d-6a4c-47ea-8e9e-415864025f95": {
+            "data": {
+                "children": [
+                    {
+                        "adapter_option": [
+                            true, 
+                            true, 
+                            true, 
+                            true, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    false, 
+                                    0.0, 
+                                    45.142852783203125, 
+                                    0.0, 
+                                    42.28572082519531
+                                ], 
+                                "children": [], 
+                                "event_list": [], 
+                                "font": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "MSYH", 
+                                        16
+                                    ]
+                                }, 
+                                "font_color": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        187, 
+                                        208, 
+                                        233, 
+                                        255
+                                    ]
+                                }, 
+                                "name": "hot_key", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        10.857139587402344, 
+                                        54.57142639160156
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        16.964280605316162, 
+                                        85.26785373687744
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        21.714279174804688, 
+                                        18.857147216796875
+                                    ]
+                                }, 
+                                "text": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "F1", 
+                                        false
+                                    ]
+                                }, 
+                                "type": 3
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0
+                                ], 
+                                "children": [], 
+                                "event_list": [], 
+                                "image": 133819, 
+                                "name": "dead", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        32.0, 
+                                        32.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        64.0, 
+                                        64.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }
+                        ], 
+                        "event_list": [], 
+                        "name": "btn", 
+                        "normal_picture": 108536, 
+                        "open_adapter": true, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                32.0, 
+                                32.0
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                64.0, 
+                                64.0
+                            ]
+                        }, 
+                        "type": 1
+                    }, 
+                    {
+                        "adapter_option": [
+                            false, 
+                            true, 
+                            true, 
+                            true, 
+                            64.0, 
+                            -6.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "bg_image": 133829, 
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 133828, 
+                        "name": "hp", 
+                        "open_adapter": true, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                32.0, 
+                                -3.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                -4.6875
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                64.0, 
+                                6.0
+                            ]
+                        }, 
+                        "type": 5
+                    }, 
+                    {
+                        "adapter_option": [
+                            false, 
+                            true, 
+                            true, 
+                            true, 
+                            70.0, 
+                            -12.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "bg_image": 133829, 
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 133830, 
+                        "name": "mp", 
+                        "open_adapter": true, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                32.0, 
+                                -9.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                -14.0625
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                64.0, 
+                                6.0
+                            ]
+                        }, 
+                        "type": 5
+                    }
+                ], 
+                "event_list": [], 
+                "image": 133831, 
+                "name": "hero", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        64.0, 
+                        64.0
+                    ]
+                }, 
+                "type": 4
+            }, 
+            "name": "hero"
+        }, 
+        "c0c1b218-7278-4abf-952b-2a17dc558082": {
+            "data": {
+                "children": [
+                    {
+                        "bar_status": true, 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    80.0, 
+                                    100.0, 
+                                    20.0, 
+                                    20.0
+                                ], 
+                                "angle": [
+                                    0.0, 
+                                    0.0, 
+                                    30.0
+                                ], 
+                                "camera_viewport": 45, 
+                                "children": [], 
+                                "event_list": [], 
+                                "focus_pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.0, 
+                                        1.0, 
+                                        0.0
+                                    ]
+                                }, 
+                                "model": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "editor_model", 
+                                        4010
+                                    ]
+                                }, 
+                                "name": "\u6a21\u578b", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        125.0, 
+                                        210.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        50.0, 
+                                        52.5
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        210.0, 
+                                        220.0
+                                    ]
+                                }, 
+                                "type": 6
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    true, 
+                                    30.0, 
+                                    320.0, 
+                                    0.0, 
+                                    10.0
+                                ], 
+                                "children": [], 
+                                "event_list": [], 
+                                "image": 131974, 
+                                "name": "\u59d3\u540d\u80cc\u666f", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        120.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        48.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        240.0, 
+                                        50.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    false, 
+                                    true, 
+                                    30.5, 
+                                    320.5, 
+                                    139.5, 
+                                    19.5
+                                ], 
+                                "alignment": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        8
+                                    ]
+                                }, 
+                                "children": [], 
+                                "event_list": [], 
+                                "font": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "HKYuanW9", 
+                                        24
+                                    ]
+                                }, 
+                                "font_color": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        239, 
+                                        159, 
+                                        34, 
+                                        255
+                                    ]
+                                }, 
+                                "name": "\u59d3\u540d", 
+                                "open_adapter": true, 
+                                "over_pattern": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        185.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        74.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        91.0, 
+                                        49.0
+                                    ]
+                                }, 
+                                "text": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "\u5173\u7fbd", 
+                                        false
+                                    ]
+                                }, 
+                                "type": 3
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    305.0, 
+                                    65.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca1\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca1", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    305.0, 
+                                    65.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca2\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca2", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        80.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        20.0
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false, 
+                                    340.0, 
+                                    30.0, 
+                                    25.0, 
+                                    125.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca3\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca3", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        75.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    340.0, 
+                                    30.0, 
+                                    130.0, 
+                                    20.0
+                                ], 
+                                "cap_insets": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        4, 
+                                        4, 
+                                        65, 
+                                        65
+                                    ]
+                                }, 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            true, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0, 
+                                            0.0
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "MSYH", 
+                                                12
+                                            ]
+                                        }, 
+                                        "name": "\u7f81\u7eca4\u540d\u5b57", 
+                                        "open_adapter": true, 
+                                        "over_pattern": 2, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                50.0, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                100.0, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "\u6843\u56ed\u7ed3\u4e49", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 101386, 
+                                "is_scale9_enable": true, 
+                                "name": "\u7f81\u7eca4", 
+                                "opacity": 0.9, 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        180.0, 
+                                        45.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        72.0, 
+                                        11.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        100.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    false, 
+                                    40.0, 
+                                    330.0, 
+                                    30.0, 
+                                    190.0
+                                ], 
+                                "children": [
+                                    {
+                                        "adapter_option": [
+                                            true, 
+                                            true, 
+                                            true, 
+                                            false, 
+                                            0.0, 
+                                            0.0, 
+                                            30.000001907348633, 
+                                            -22.910001754760742
+                                        ], 
+                                        "alignment": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                2, 
+                                                8
+                                            ]
+                                        }, 
+                                        "children": [], 
+                                        "event_list": [], 
+                                        "font": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "HKXinZongYiW7", 
+                                                20
+                                            ]
+                                        }, 
+                                        "name": "label_5", 
+                                        "open_adapter": true, 
+                                        "over_pattern": true, 
+                                        "pos": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                41.45500183105469, 
+                                                15.0
+                                            ]
+                                        }, 
+                                        "pos_percent": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                138.18333943684894, 
+                                                50.0
+                                            ]
+                                        }, 
+                                        "size": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                22.90999984741211, 
+                                                30.0
+                                            ]
+                                        }, 
+                                        "text": {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "3", 
+                                                false
+                                            ]
+                                        }, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "event_list": [], 
+                                "image": 131775, 
+                                "name": "\u4eba\u53e3", 
+                                "open_adapter": true, 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        45.0, 
+                                        345.0
+                                    ]
+                                }, 
+                                "pos_percent": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        18.0, 
+                                        86.25
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        30.0, 
+                                        30.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }
+                        ], 
+                        "disabled_picture": 101098, 
+                        "event_list": [
+                            {
+                                "action_list": [
+                                    {
+                                        "anim_duration": 1.0, 
+                                        "anim_id": null, 
+                                        "anim_type": 7, 
+                                        "comp": "b8dcbcfa-f7a7-4cc6-a519-e91078598b05", 
+                                        "ease_type": 0, 
+                                        "name": "Hide_3", 
+                                        "open_timeline": true, 
+                                        "type": 3
+                                    }
+                                ], 
+                                "enabled": true, 
+                                "name": "\u53611_0", 
+                                "sound_id": null, 
+                                "type": 1
+                            }
+                        ], 
+                        "name": "\u53611", 
+                        "normal_picture": 101208, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                125.0, 
+                                200.0
+                            ]
+                        }, 
+                        "press_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                255, 
+                                235, 
+                                153, 
+                                255
+                            ]
+                        }, 
+                        "press_picture": 101098, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                250.0, 
+                                400.0
+                            ]
+                        }, 
+                        "suspend_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                166, 
+                                166, 
+                                166, 
+                                255
+                            ]
+                        }, 
+                        "suspend_picture": 101098, 
+                        "type": 1
+                    }
+                ], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "name": "layout_1", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "c0c1b218-7278-4abf-952b-2a17dc558082", 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        250.0, 
+                        400.0
+                    ]
+                }, 
+                "type": 7
+            }, 
+            "name": "3\u7ea7\u5361"
+        }
+    }, 
+    "ui_template_id": 2, 
+    "uid_version": true
+}
