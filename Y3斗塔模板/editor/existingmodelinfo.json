@@ -48,14 +48,6 @@
   ]
  }, 
  {
-  "__tuple__": true, 
-  "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
   "name": "\u88c5\u9970\u7269", 
   "key": "J4xF8B8WEe6yoTDQQuc0bv", 
   "group": [
@@ -1068,5 +1060,13 @@
    }
   ], 
   "btn_visible": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
  }
 ]
