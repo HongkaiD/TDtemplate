@@ -1,0 +1,22 @@
+{
+    "y3yyds": {
+        "role_id": 1, 
+        "archive": {}, 
+        "platform_prop": {}
+    }, 
+    "test_account1": {
+        "role_id": 2, 
+        "archive": {}, 
+        "platform_prop": {}
+    }, 
+    "test_account2": {
+        "role_id": 3, 
+        "archive": {}, 
+        "platform_prop": {}
+    }, 
+    "test_account3": {
+        "role_id": 4, 
+        "archive": {}, 
+        "platform_prop": {}
+    }
+}

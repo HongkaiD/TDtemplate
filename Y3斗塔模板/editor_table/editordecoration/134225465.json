@@ -8,9 +8,9 @@
     }, 
     "base_color_mod": 0, 
     "base_tint_color": [
-        1, 
-        84, 
-        208, 
+        139, 
+        139, 
+        139, 
         0.18
     ], 
     "cast_shadow": true, 

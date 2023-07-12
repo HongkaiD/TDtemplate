@@ -17,7 +17,88 @@
                                 {
                                     "arg_type": 100024, 
                                     "args_list": [
-                                        10000
+                                        10005
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100051, 
+                                    "args_list": [
+                                        0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "UNIT_COMMAND_MOVE_ALONG_ROAD"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1322831873000006, 
+                    "enable": true
+                }, 
+                2010238978
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1322831873000002, 
+                    "enable": true, 
+                    "event_type": "UNIT_BORN"
+                }
+            ], 
+            "group_id": 134228168, 
+            "p_trigger_id": null, 
+            "trigger_id": 1322831873, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "2010238978": {
+            "action": [
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100024, 
+                                    "args_list": [
+                                        10009
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -53,8 +134,8 @@
                                 }
                             ], 
                             "op_arg_enable": [
-                                false, 
-                                true
+                                true, 
+                                false
                             ], 
                             "sub_type": "UNIT_COMMAND_MOVE_ALONG_ROAD"
                         }
@@ -64,21 +145,47 @@
                     "enable": true
                 }
             ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
+            "call_enabled": false, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }
+                    ], 
+                    "condition_type": "UNIT_COMPARE", 
+                    "element_id": 2010238978000007, 
+                    "enable": true
+                }
+            ], 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1322831873000002, 
+                    "element_id": 2010238978000004, 
                     "enable": true, 
-                    "event_type": "UNIT_BORN"
+                    "event_type": "UNIT_END_NAV_EVENT"
                 }
             ], 
-            "group_id": 134228168, 
-            "p_trigger_id": null, 
-            "trigger_id": 1322831873, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1322831873, 
+            "trigger_id": 2010238978, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668", 
             "valid": true
         }
     }, 
@@ -93,7 +200,11 @@
             ], 
             "key": 134228168, 
             "name": "134228168"
-        }
+        }, 
+        [
+            2010238978, 
+            "\u5b50\u89e6\u53d1\u5668"
+        ]
     ], 
     "trigger_version": "1.2", 
     "variable_dict": {}, 

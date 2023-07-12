@@ -1,4 +1,8 @@
 {
+    "1": 1, 
+    "4": 1.0, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134267711, 
     "affect_techs": {
@@ -40,7 +44,7 @@
     "billboard_scale_y": 1.0, 
     "blood_bar": 393219, 
     "blood_show_type": 0, 
-    "body_size": 1.25, 
+    "body_size": 1.0, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -210,7 +214,7 @@
                 0, 
                 0
             ], 
-            1.25
+            1.0
         ]
     }, 
     "common_ability_list": {
@@ -309,7 +313,7 @@
     "max_stock": 5, 
     "mini_map_icon": 106742, 
     "mini_map_icon_scale": 1.0, 
-    "model": 205066, 
+    "model": 204625, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 

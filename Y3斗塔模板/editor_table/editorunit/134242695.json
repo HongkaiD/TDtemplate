@@ -1,4 +1,8 @@
 {
+    "1": 1, 
+    "4": 0.9, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134219816, 
     "affect_techs": {
@@ -34,13 +38,13 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": -0.8, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 65537, 
+    "blood_bar": 327683, 
     "blood_show_type": 0, 
-    "body_size": 1.25, 
+    "body_size": 1.1, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -210,7 +214,7 @@
                 0, 
                 0
             ], 
-            1.0
+            0.8800000000000001
         ]
     }, 
     "common_ability_list": {

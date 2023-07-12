@@ -3,7 +3,7 @@
     "key": -1, 
     "key_order": {
         "KF0OsLKSEe2XPAD-+E6xse": 0, 
-        "auuwDyAfEe6O3gD-FQJxlF": 9
+        "auuwDyAfEe6O3gD-FQJxlF": 10
     }, 
     "name": "trigger", 
     "sub_trigger": {
@@ -63,242 +63,263 @@
                 "\u4e70\u5361"
             ]
         }, 
-        "10": {
+        "9": {
+            "__tuple__": true, 
+            "items": [
+                13008960, 
+                "\u5efa\u9020\u540e\u5220\u9664\u5361\u724c"
+            ]
+        }, 
+        "11": {
             "__tuple__": true, 
             "items": [
                 56373272, 
                 "on_hero_create"
             ]
         }, 
-        "11": {
+        "12": {
             "__tuple__": true, 
             "items": [
                 1616654361, 
                 "\u5b50\u89e6\u53d1\u5668"
             ]
         }, 
-        "12": {
+        "13": {
             "__tuple__": true, 
             "items": [
                 559689754, 
                 "on_hero_delete"
             ]
         }, 
-        "13": {
+        "14": {
             "__tuple__": true, 
             "items": [
                 224145435, 
                 "on_hero_reborn"
             ]
         }, 
-        "14": {
+        "15": {
             "__tuple__": true, 
             "items": [
                 2103193628, 
                 "on_hero_dead"
             ]
         }, 
-        "15": {
+        "16": {
             "__tuple__": true, 
             "items": [
                 1968975901, 
                 "on_unit_dead"
             ]
         }, 
-        "16": {
+        "17": {
             "__tuple__": true, 
             "items": [
                 1247555614, 
                 "on_unit_delete"
             ]
         }, 
-        "17": {
+        "18": {
             "__tuple__": true, 
             "items": [
                 1784426527, 
                 "MOUSE MOVE"
             ]
         }, 
-        "18": {
+        "19": {
             "__tuple__": true, 
             "items": [
                 257699874, 
                 "Select Unit"
             ]
         }, 
-        "19": {
+        "20": {
             "__tuple__": true, 
             "items": [
                 1683763235, 
                 "Select Unit Group"
             ]
         }, 
-        "20": {
+        "21": {
             "__tuple__": true, 
             "items": [
                 1633431588, 
                 "Select Item"
             ]
         }, 
-        "21": {
+        "22": {
             "__tuple__": true, 
             "items": [
                 945565733, 
                 "Select Destructible"
             ]
         }, 
-        "22": {
+        "23": {
             "__tuple__": true, 
             "items": [
                 1180446758, 
                 "Open Bag"
             ]
         }, 
-        "23": {
+        "24": {
             "__tuple__": true, 
             "items": [
                 1952198695, 
                 "minimap_btn1"
             ]
         }, 
-        "24": {
+        "25": {
             "__tuple__": true, 
             "items": [
                 945565736, 
                 "minimap_btn2"
             ]
         }, 
-        "25": {
+        "26": {
             "__tuple__": true, 
             "items": [
                 1817980970, 
                 "change main unit"
             ]
         }, 
-        "26": {
+        "27": {
             "__tuple__": true, 
             "items": [
                 308031531, 
                 "change main unit by hotkey"
             ]
         }, 
-        "27": {
+        "28": {
             "__tuple__": true, 
             "items": [
                 912011308, 
                 "focu_on_select_unit"
             ]
         }, 
-        "28": {
+        "29": {
             "__tuple__": true, 
             "items": [
                 1314664493, 
                 "release_listener"
             ]
         }, 
-        "29": {
+        "30": {
             "__tuple__": true, 
             "items": [
                 1029451822, 
                 "main_unit_skill_list_value_change"
             ]
         }, 
-        "30": {
+        "31": {
             "__tuple__": true, 
             "items": [
                 157036591, 
                 "show_skill_tips"
             ]
         }, 
-        "31": {
+        "32": {
             "__tuple__": true, 
             "items": [
                 811348016, 
                 "show_inventory_tips"
             ]
         }, 
-        "32": {
+        "33": {
             "__tuple__": true, 
             "items": [
                 2103193649, 
                 "show_bag_tips"
             ]
         }, 
-        "33": {
+        "34": {
             "__tuple__": true, 
             "items": [
                 1247555634, 
                 "show_modifier_tips"
             ]
         }, 
-        "34": {
+        "35": {
             "__tuple__": true, 
             "items": [
                 693907507, 
                 "show_store_tips"
             ]
         }, 
-        "35": {
+        "36": {
             "__tuple__": true, 
             "items": [
                 2136748084, 
                 "hide_tips"
             ]
         }, 
-        "36": {
+        "37": {
             "__tuple__": true, 
             "items": [
                 2119970869, 
                 "sell_item"
             ]
         }, 
-        "37": {
+        "38": {
             "__tuple__": true, 
             "items": [
                 2119970870, 
                 "buy_item"
             ]
         }, 
-        "38": {
+        "39": {
             "__tuple__": true, 
             "items": [
                 1717317687, 
                 "store_tab_click"
             ]
         }, 
-        "39": {
+        "40": {
             "__tuple__": true, 
             "items": [
                 1012674616, 
                 "store_tab_down"
             ]
         }, 
-        "40": {
+        "41": {
             "__tuple__": true, 
             "items": [
                 995897401, 
                 "store_tab_up"
             ]
         }, 
-        "41": {
+        "42": {
             "__tuple__": true, 
             "items": [
                 207368250, 
                 "fresh_sell_list"
             ]
         }, 
-        "42": {
-            "__tuple__": true, 
-            "items": [
-                1689428027, 
-                "\u5b50\u89e6\u53d1\u5668_2"
-            ]
-        }, 
         "43": {
             "__tuple__": true, 
             "items": [
                 399581244, 
-                "\u65b0\u5efa\u89e6\u53d1\u5668"
+                "\u751f\u6210\u602a"
+            ]
+        }, 
+        "44": {
+            "__tuple__": true, 
+            "items": [
+                1028280383, 
+                "\u6e38\u620f\u52a0\u8f7d"
+            ]
+        }, 
+        "45": {
+            "__tuple__": true, 
+            "items": [
+                212557886, 
+                "\u9009\u62e9\u96be\u5ea6"
+            ]
+        }, 
+        "46": {
+            "__tuple__": true, 
+            "items": [
+                675065917, 
+                "\u6e38\u620f\u5f00\u59cb"
             ]
         }
     }

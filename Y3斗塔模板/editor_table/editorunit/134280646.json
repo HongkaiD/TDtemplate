@@ -1,4 +1,7 @@
 {
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134232450, 
     "affect_techs": {
@@ -38,9 +41,9 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 65537, 
+    "blood_bar": 327683, 
     "blood_show_type": 0, 
-    "body_size": 1.25, 
+    "body_size": 1.0, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -148,7 +151,7 @@
                 0, 
                 0
             ], 
-            1.0
+            0.8
         ]
     }, 
     "common_ability_list": {

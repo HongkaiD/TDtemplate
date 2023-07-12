@@ -38,7 +38,7 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 65537, 
+    "blood_bar": 327683, 
     "blood_show_type": 0, 
     "body_size": 1.25, 
     "build_res_cost_list": {
@@ -307,6 +307,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
+    "reward_KzI1zyC+Ee6-JTDQQuc0bk": 0.0, 
     "reward_exp": 5, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
