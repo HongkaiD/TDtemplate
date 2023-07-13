@@ -14,7 +14,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 100.0, 
+    "attack_phy": 50.0, 
     "attack_phy_grow": 2.0, 
     "attack_range": 10.0, 
     "attack_range_grow": 0, 
@@ -40,7 +40,7 @@
     "billboard_scale_y": 1.0, 
     "blood_bar": 393219, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.25, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -95,16 +95,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
+                256, 
+                256, 
                 256, 
                 256, 
                 256, 
@@ -112,17 +104,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
                 256, 
                 256, 
-                256, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
                 256, 
                 256, 
                 256, 
@@ -130,12 +113,29 @@
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
+                0, 
+                0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
@@ -166,12 +166,12 @@
                 0, 
                 0
             ], 
-            1.0
+            1.25
         ]
     }, 
     "common_ability_list": [
         [
-            134274016, 
+            134277739, 
             1
         ]
     ], 
@@ -245,7 +245,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 130231, 
+    "icon": 106946, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -338,10 +338,10 @@
         "attack_interval": 1.0, 
         "attack_range": 10.0, 
         "attack_trajectory": {
-            "effect": 104598, 
+            "effect": 101043, 
             "follow_scale": true, 
-            "scale": 0.5, 
-            "socket": "weapon1", 
+            "scale": 1.0, 
+            "socket": "hand2", 
             "target_socket": "root"
         }, 
         "cast_effect_list": [], 
@@ -350,11 +350,28 @@
         "damage": {
             "__tuple__": true, 
             "items": [
-                "lambda unit: Fix32(50)", 
-                [], 
-                "lambda unit: Fix32(50)", 
-                {}, 
-                []
+                "lambda unit: Fix32(20) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                [
+                    [
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(20) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                {
+                    "unit.ability_source.ATTR_BASE.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ]
             ]
         }, 
         "damage_type": 0, 
@@ -386,7 +403,10 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "\u8fdc\u7a0b", 
+            "\u5929\u4f5c\u4e4b\u5408"
+        ]
     }, 
     "type": 2, 
     "uid": "134235042", 

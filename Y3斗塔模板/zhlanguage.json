@@ -1,4 +1,8 @@
 {
+    "-2139772956": {
+        "key": -2139772956, 
+        "value": "\u4e2d\u7ea7\u62bd\u5361"
+    }, 
     "-2137737699": {
         "key": -2137737699, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
@@ -57,7 +61,7 @@
     }, 
     "-1880925067": {
         "key": -1880925067, 
-        "value": "\u9b54\u66f9\u64cd"
+        "value": "\u66f9\u64cd"
     }, 
     "-1874425985": {
         "key": -1874425985, 
@@ -90,6 +94,10 @@
     "-1798966211": {
         "key": -1798966211, 
         "value": "\u5f20\u98de"
+    }, 
+    "-1787396744": {
+        "key": -1787396744, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u82f1\u96c4"
     }, 
     "-1784790409": {
         "key": -1784790409, 
@@ -151,6 +159,10 @@
         "key": -1416321541, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
     }, 
+    "-1410365231": {
+        "key": -1410365231, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u4ee5\u53e0\u52a0\u5c42\u6570\u7684\u9b54\u6cd5\u6548\u679c\uff0c\u83b7\u5f97\u76f8\u540c\u7684\u9b54\u6cd5\u6548\u679c\u65f6\u4f1a\u53e0\u52a0\u5c42\u6570\u5e76\u5237\u65b0\u6301\u7eed\u65f6\u95f4"
+    }, 
     "-1402327772": {
         "key": -1402327772, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
@@ -193,7 +205,7 @@
     }, 
     "-1261497675": {
         "key": -1261497675, 
-        "value": "\u9b54\u5415\u5e03"
+        "value": "\u5415\u5e03"
     }, 
     "-1247341576": {
         "key": -1247341576, 
@@ -363,6 +375,10 @@
         "key": -485008544, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
     }, 
+    "-480971662": {
+        "key": -480971662, 
+        "value": "<html><body><p>\u70b9\u51fb\u53ec\u5524\u82f1\u96c4\u5361 \u6d88\u8017100\u91d1\u5e01<br /></p><p><span style=\"color:#175cff;\">\u666e\u901a</span>\u82f1\u96c4 50%</p><p><span style=\"color:#c901f5;\">\u9ad8\u7ea7</span>\u82f1\u96c4 38%</p><p><span style=\"color:#ff6321;\">\u4f20\u8bf4</span>\u82f1\u96c4 12%</p></body></html>"
+    }, 
     "-468393082": {
         "key": -468393082, 
         "value": "\u5357\u534e\u8001\u4ed9"
@@ -378,6 +394,10 @@
     "-441395888": {
         "key": -441395888, 
         "value": "\u5173\u7fbd"
+    }, 
+    "-440530096": {
+        "key": -440530096, 
+        "value": "\u6843\u56ed\u7ed3\u4e49"
     }, 
     "-434015229": {
         "key": -434015229, 
@@ -431,6 +451,10 @@
         "key": -240757808, 
         "value": "\u5c0f\u4e54"
     }, 
+    "-221829151": {
+        "key": -221829151, 
+        "value": "<html><body><p>\u5f53\u96c6\u9f50\u5173\u7fbd\u3001\u5f20\u98de\u3001\u5218\u5907\u4e09\u540d\u82f1\u96c4\u65f6\uff0c\u83b7\u5f97+100\u5168\u5c5e\u6027\u52a0\u6210</p></body></html>"
+    }, 
     "-204557496": {
         "key": -204557496, 
         "value": "\u5b59\u5c1a\u9999"
@@ -469,7 +493,7 @@
     }, 
     "-70605846": {
         "key": -70605846, 
-        "value": "\u9b54\u66f9\u64cd"
+        "value": "\u66f9\u64cd"
     }, 
     "-57638007": {
         "key": -57638007, 
@@ -509,7 +533,7 @@
     }, 
     "77383445": {
         "key": 77383445, 
-        "value": "\u521b\u5efa\u65b0\u6280\u80fd"
+        "value": "<html><body><p>\u70b9\u51fb\u53ec\u5524\u82f1\u96c4\u5361 \u6d88\u8017100\u91d1\u5e01<br /></p><p><span style=\"color:#175cff;\">\u666e\u901a</span>\u82f1\u96c4 90%</p><p><span style=\"color:#c901f5;\">\u9ad8\u7ea7</span>\u82f1\u96c4 10%</p></body></html>"
     }, 
     "81735525": {
         "key": 81735525, 
@@ -521,11 +545,19 @@
     }, 
     "98101329": {
         "key": 98101329, 
-        "value": "\u9b54\u5415\u5e03"
+        "value": "\u5415\u5e03"
+    }, 
+    "104452740": {
+        "key": 104452740, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u4ee5\u53e0\u52a0\u5c42\u6570\u7684\u9b54\u6cd5\u6548\u679c\uff0c\u83b7\u5f97\u76f8\u540c\u7684\u9b54\u6cd5\u6548\u679c\u65f6\u4f1a\u53e0\u52a0\u5c42\u6570\u5e76\u5237\u65b0\u6301\u7eed\u65f6\u95f4"
     }, 
     "121285664": {
         "key": 121285664, 
-        "value": "\u521d\u7ea7"
+        "value": "\u666e\u901a\u53ec\u5524"
+    }, 
+    "124195397": {
+        "key": 124195397, 
+        "value": "\u4e94\u864e\u4e0a\u5c06"
     }, 
     "132740608": {
         "key": 132740608, 
@@ -559,6 +591,10 @@
         "key": 260691625, 
         "value": "\u9a6c\u8d85"
     }, 
+    "287994147": {
+        "key": 287994147, 
+        "value": "\u5929\u4f5c\u4e4b\u5408"
+    }, 
     "291754117": {
         "key": 291754117, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
@@ -583,6 +619,10 @@
         "key": 420700535, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
     }, 
+    "432619195": {
+        "key": 432619195, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u4ee5\u53e0\u52a0\u5c42\u6570\u7684\u9b54\u6cd5\u6548\u679c\uff0c\u83b7\u5f97\u76f8\u540c\u7684\u9b54\u6cd5\u6548\u679c\u65f6\u4f1a\u53e0\u52a0\u5c42\u6570\u5e76\u5237\u65b0\u6301\u7eed\u65f6\u95f4"
+    }, 
     "438046282": {
         "key": 438046282, 
         "value": "\u521b\u5efa\u65b0\u6280\u80fd"
@@ -593,6 +633,10 @@
     }, 
     "444136512": {
         "key": 444136512, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u82f1\u96c4"
+    }, 
+    "445006985": {
+        "key": 445006985, 
         "value": "\u8fd9\u662f\u4e00\u4e2a\u82f1\u96c4"
     }, 
     "450368093": {
@@ -643,6 +687,10 @@
         "key": 739537008, 
         "value": "\u9f99\u5973"
     }, 
+    "769773685": {
+        "key": 769773685, 
+        "value": "\u9ad8\u7ea7\u62bd\u5361"
+    }, 
     "782696549": {
         "key": 782696549, 
         "value": "\u590f\u4faf\u6e0a"
@@ -659,9 +707,17 @@
         "key": 902226420, 
         "value": "\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u88c5\u9970\u7269"
     }, 
+    "910732819": {
+        "key": 910732819, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u4ee5\u53e0\u52a0\u5c42\u6570\u7684\u9b54\u6cd5\u6548\u679c\uff0c\u83b7\u5f97\u76f8\u540c\u7684\u9b54\u6cd5\u6548\u679c\u65f6\u4f1a\u53e0\u52a0\u5c42\u6570\u5e76\u5237\u65b0\u6301\u7eed\u65f6\u95f4"
+    }, 
     "949061558": {
         "key": 949061558, 
         "value": "\u66f9\u690d"
+    }, 
+    "960648639": {
+        "key": 960648639, 
+        "value": "\u9a6c\u8d85"
     }, 
     "960670869": {
         "key": 960670869, 
@@ -686,6 +742,10 @@
     "1090049638": {
         "key": 1090049638, 
         "value": "\u57fa\u5ea7"
+    }, 
+    "1103156158": {
+        "key": 1103156158, 
+        "value": "\u6e29\u4faf\u65e0\u53cc"
     }, 
     "1103560882": {
         "key": 1103560882, 
@@ -819,9 +879,17 @@
         "key": 1742108619, 
         "value": "\u90ed\u5609"
     }, 
+    "1746023924": {
+        "key": 1746023924, 
+        "value": "<html><body><p>\u70b9\u51fb\u53ec\u5524\u82f1\u96c4\u5361 \u6d88\u8017100\u91d1\u5e01<br /></p><p><span style=\"color:#175cff;\">\u666e\u901a</span>\u82f1\u96c4 70%</p><p><span style=\"color:#c901f5;\">\u9ad8\u7ea7</span>\u82f1\u96c4 24%</p><p><span style=\"color:#ff6321;\">\u4f20\u8bf4</span>\u82f1\u96c4 6%</p></body></html>"
+    }, 
     "1751528415": {
         "key": 1751528415, 
         "value": "\u590f\u4faf\u6e0a"
+    }, 
+    "1824703841": {
+        "key": 1824703841, 
+        "value": "\u4e09\u8db3\u9f0e\u7acb"
     }, 
     "1825100728": {
         "key": 1825100728, 
@@ -859,6 +927,10 @@
         "key": 1965698346, 
         "value": "\u796d\u7940\u53f0"
     }, 
+    "1970912700": {
+        "key": 1970912700, 
+        "value": "\u5927\u4e54"
+    }, 
     "1980843772": {
         "key": 1980843772, 
         "value": "\u8fd9\u662f\u4e00\u4e2a\u751f\u7269"
@@ -887,6 +959,14 @@
         "key": 2119522944, 
         "value": "\u8463\u5353"
     }, 
+    "#0ae6cd25-66be-40d2-8974-80c0493f9718#text": {
+        "key": "#0ae6cd25-66be-40d2-8974-80c0493f9718#text", 
+        "value": "\u4ece\u5f81\u56db\u65b9"
+    }, 
+    "#126cdc91-2562-4974-8e5f-ec3094531bc0#text": {
+        "key": "#126cdc91-2562-4974-8e5f-ec3094531bc0#text", 
+        "value": "\u7f81\u7eca\u5217\u8868"
+    }, 
     "#17748d2b-b1d7-4047-bb88-c20dc4874412#normal_text": {
         "key": "#17748d2b-b1d7-4047-bb88-c20dc4874412#normal_text", 
         "value": "\u96be\u5ea63"
@@ -899,21 +979,89 @@
         "key": "#1818a09e-06d8-4a41-82c8-6569cff687c4#normal_text", 
         "value": "\u96be\u5ea62"
     }, 
+    "#1c8387b8-95ff-4ab2-8845-c34d38af4aa9#text": {
+        "key": "#1c8387b8-95ff-4ab2-8845-c34d38af4aa9#text", 
+        "value": "\u6e29\u4faf\u65e0\u53cc"
+    }, 
+    "#27590081-319a-48f4-ade1-24af6a9ee92d#text": {
+        "key": "#27590081-319a-48f4-ade1-24af6a9ee92d#text", 
+        "value": "\u5546\u5e97"
+    }, 
+    "#27cf49c3-7cd4-49c9-ba8b-5e0b9191e276#text": {
+        "key": "#27cf49c3-7cd4-49c9-ba8b-5e0b9191e276#text", 
+        "value": "\u6587\u6b66\u53cc\u5168"
+    }, 
+    "#2c545cbf-a966-4ad5-8476-19fd85400f6b#text": {
+        "key": "#2c545cbf-a966-4ad5-8476-19fd85400f6b#text", 
+        "value": "\u6db8\u9c7c\u5f97\u6c34"
+    }, 
+    "#2c5e0d0b-9d35-4aca-85b9-d67a835549d3#text": {
+        "key": "#2c5e0d0b-9d35-4aca-85b9-d67a835549d3#text", 
+        "value": "\u521a\u70c8\u52c7\u731b"
+    }, 
+    "#2f29c98a-b22c-43cb-ad02-c1bc26a0e8a4#text": {
+        "key": "#2f29c98a-b22c-43cb-ad02-c1bc26a0e8a4#text", 
+        "value": "\u6843\u56ed\u7ed3\u4e49"
+    }, 
+    "#44079732-56cc-4494-abaf-7d249e24ffec#text": {
+        "key": "#44079732-56cc-4494-abaf-7d249e24ffec#text", 
+        "value": "\u5fe0\u809d\u4e49\u80c6"
+    }, 
     "#480133b7-de07-4a4e-ac0f-4ca2ec8dde5d#text": {
         "key": "#480133b7-de07-4a4e-ac0f-4ca2ec8dde5d#text", 
         "value": "\u6843\u56ed\u7ed3\u4e49"
+    }, 
+    "#4813e7ae-ccac-4a60-8969-cd0ec6de8c02#text": {
+        "key": "#4813e7ae-ccac-4a60-8969-cd0ec6de8c02#text", 
+        "value": "\u66b4\u623e\u65e0\u4ec1"
+    }, 
+    "#4df088fd-dec0-408e-874f-243206b30142#text": {
+        "key": "#4df088fd-dec0-408e-874f-243206b30142#text", 
+        "value": "1/3"
+    }, 
+    "#4ea45bb5-9577-49a6-9fd5-db3a7b2d100d#text": {
+        "key": "#4ea45bb5-9577-49a6-9fd5-db3a7b2d100d#text", 
+        "value": "\u66f9\u9b4f\u667a\u8c0b"
     }, 
     "#556d9665-b673-47e2-9923-75a9968f9fe6#text": {
         "key": "#556d9665-b673-47e2-9923-75a9968f9fe6#text", 
         "value": "1"
     }, 
+    "#6700b141-e997-44d8-89b4-e13804ab265d#text": {
+        "key": "#6700b141-e997-44d8-89b4-e13804ab265d#text", 
+        "value": "\u6843\u56ed\u7ed3\u4e49"
+    }, 
+    "#675c4d1b-4cc5-4fcf-a054-13a84ea42cd0#text": {
+        "key": "#675c4d1b-4cc5-4fcf-a054-13a84ea42cd0#text", 
+        "value": "\u4ed9\u98ce\u9053\u9aa8"
+    }, 
+    "#7093509e-ed4c-4af0-af9b-3d25be3b166d#text": {
+        "key": "#7093509e-ed4c-4af0-af9b-3d25be3b166d#text", 
+        "value": "\u5929\u4f5c\u4e4b\u5408"
+    }, 
     "#7270bb30-d379-4f99-8fa9-0bf571fbab3c#normal_text": {
         "key": "#7270bb30-d379-4f99-8fa9-0bf571fbab3c#normal_text", 
         "value": "\u96be\u5ea61"
     }, 
+    "#75fc37ab-61ce-4437-bd7f-524e0ef1602e#text": {
+        "key": "#75fc37ab-61ce-4437-bd7f-524e0ef1602e#text", 
+        "value": "\u80cc\u5305"
+    }, 
+    "#7940a880-0559-438d-ac1a-aa53f20390ca#text": {
+        "key": "#7940a880-0559-438d-ac1a-aa53f20390ca#text", 
+        "value": "\u66f9\u5bb6\u9738\u4e1a"
+    }, 
     "#7c356e9a-e92c-4ba4-904f-274f0801345e#text": {
         "key": "#7c356e9a-e92c-4ba4-904f-274f0801345e#text", 
         "value": "500"
+    }, 
+    "#8172df70-7c91-41dd-8ab6-ad8dc03b706b#text": {
+        "key": "#8172df70-7c91-41dd-8ab6-ad8dc03b706b#text", 
+        "value": "\u7f81\u7eca1"
+    }, 
+    "#84850cd6-14be-4a5d-a942-222263eab692#text": {
+        "key": "#84850cd6-14be-4a5d-a942-222263eab692#text", 
+        "value": "\u4e94\u864e\u4e0a\u5c06"
     }, 
     "#889e483e-72db-4832-adc5-2085e08f4e86#text": {
         "key": "#889e483e-72db-4832-adc5-2085e08f4e86#text", 
@@ -927,6 +1075,14 @@
         "key": "#90404c33-97ae-4ec7-9e2f-9d18f3f94999#text", 
         "value": "\u5fe0\u809d\u4e49\u80c6"
     }, 
+    "#9b703b00-a421-4d7c-a28e-981946d13ceb#text": {
+        "key": "#9b703b00-a421-4d7c-a28e-981946d13ceb#text", 
+        "value": "\u80c6\u6218\u5fc3\u60ca"
+    }, 
+    "#a02a4392-8521-48fd-9db4-f5cb9f17045d#text": {
+        "key": "#a02a4392-8521-48fd-9db4-f5cb9f17045d#text", 
+        "value": "\u65e2\u751f\u745c\u4f55\u751f\u4eae"
+    }, 
     "#a0cc2242-fe3e-4808-95da-43d2a635697b#normal_text": {
         "key": "#a0cc2242-fe3e-4808-95da-43d2a635697b#normal_text", 
         "value": "\u4e2d\u7ea7\u6c42\u8d24"
@@ -934,6 +1090,14 @@
     "#a50b9a45-b80a-46ae-b0bc-1862f544b0f7#text": {
         "key": "#a50b9a45-b80a-46ae-b0bc-1862f544b0f7#text", 
         "value": "\u522e\u9aa8\u7597\u6bd2"
+    }, 
+    "#acd6e006-9ade-4418-aefa-fc0e9eb86b2b#text": {
+        "key": "#acd6e006-9ade-4418-aefa-fc0e9eb86b2b#text", 
+        "value": "\u6108\u6218\u6108\u52c7"
+    }, 
+    "#bda0678a-fed9-4abd-936f-8b63c7275e6f#text": {
+        "key": "#bda0678a-fed9-4abd-936f-8b63c7275e6f#text", 
+        "value": "\u5929\u4f5c\u4e4b\u5408"
     }, 
     "#c6074f3e-3c50-4547-91d5-fcd43c404e1e#normal_text": {
         "key": "#c6074f3e-3c50-4547-91d5-fcd43c404e1e#normal_text", 
@@ -959,6 +1123,10 @@
         "key": "#d3e9098f-0608-4726-8d6a-6664517fe9e3#text", 
         "value": "25"
     }, 
+    "#dc3fb200-f158-4cc7-ad6c-60e9078ebd83#text": {
+        "key": "#dc3fb200-f158-4cc7-ad6c-60e9078ebd83#text", 
+        "value": "\u52c7\u731b\u864e\u536b"
+    }, 
     "#dd9f4908-e838-489a-a24a-c39a2c7dba92#text": {
         "key": "#dd9f4908-e838-489a-a24a-c39a2c7dba92#text", 
         "value": "\u52a0\u8f7d\u4e2d..."
@@ -966,6 +1134,10 @@
     "#de718441-15a8-4595-bcfa-1f3476059872#text": {
         "key": "#de718441-15a8-4595-bcfa-1f3476059872#text", 
         "value": "\u5173\u7fbd"
+    }, 
+    "#e94ad2a0-a2fa-4cdf-a5e5-54bab4cfe325#text": {
+        "key": "#e94ad2a0-a2fa-4cdf-a5e5-54bab4cfe325#text", 
+        "value": "\u4e09\u8db3\u9f0e\u7acb"
     }, 
     "#e9b9dd69-f6e8-4eec-90f4-d7e11e26fea2#text": {
         "key": "#e9b9dd69-f6e8-4eec-90f4-d7e11e26fea2#text", 
@@ -978,6 +1150,10 @@
     "$faction 1": {
         "key": "$faction 1", 
         "value": "\u9635\u8425 1"
+    }, 
+    "$faction 2": {
+        "key": "$faction 2", 
+        "value": "\u9635\u8425 2"
     }, 
     "$faction 9999": {
         "key": "$faction 9999", 

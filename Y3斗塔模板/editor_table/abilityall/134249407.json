@@ -7,7 +7,7 @@
             "50"
         ]
     }, 
-    "ability_bw_point": 0.5, 
+    "ability_bw_point": 0.0, 
     "ability_cast_point": 0.2, 
     "ability_cast_range": {
         "__tuple__": true, 
@@ -20,13 +20,13 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {
@@ -41,7 +41,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 107766, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -78,7 +78,7 @@
         "items": []
     }, 
     "build_list": [
-        134260395
+        134270713
     ], 
     "build_rotate": 0, 
     "building_attack_range_sfx": 101492, 
@@ -89,14 +89,14 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_bs_interrupt": true, 
+    "can_bs_interrupt": false, 
     "can_cache": false, 
     "can_cast_interrupt": false, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
-    "can_interrupt_others": true, 
+    "can_interrupt_others": false, 
     "can_prepare_interrupt": false, 
-    "can_ps_interrupt": true, 
+    "can_ps_interrupt": false, 
     "cast_ignore_ability_command": true, 
     "cast_ignore_move_command": true, 
     "cast_move_interrupt": false, 
@@ -159,7 +159,7 @@
         "items": []
     }, 
     "influenced_by_cd_reduce": false, 
-    "influenced_by_move": true, 
+    "influenced_by_move": false, 
     "is_autocast": false, 
     "is_charge_ability": false, 
     "is_immediate": true, 

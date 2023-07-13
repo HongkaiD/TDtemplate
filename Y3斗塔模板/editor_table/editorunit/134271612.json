@@ -127,7 +127,7 @@
     }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 1000.0, 
+    "hp_max": 500.0, 
     "hp_max_grow": 0.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -187,7 +187,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 1000.0, 
+    "preview_billboard_health_value": 500.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -195,8 +195,9 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
-    "reward_exp": 5, 
-    "reward_official_res_1": 0.0, 
+    "reward_KzI1zyC+Ee6-JTDQQuc0bk": 0.0, 
+    "reward_exp": 5000, 
+    "reward_official_res_1": 500.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
     "sell_list": {
@@ -270,7 +271,7 @@
     "uid": "134271612", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
-    "use_simple_mini_map_icon": false, 
+    "use_simple_mini_map_icon": true, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 
     "vampire_phy": 0.0, 

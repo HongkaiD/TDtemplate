@@ -7,6 +7,10 @@
         "key": "$faction 1", 
         "value": "Faction 1"
     }, 
+    "$faction 2": {
+        "key": "$faction 2", 
+        "value": "Faction 2"
+    }, 
     "$faction 9999": {
         "key": "$faction 9999", 
         "value": "Neutral"

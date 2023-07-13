@@ -17,7 +17,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 100.0, 
+    "attack_phy": 50.0, 
     "attack_phy_grow": 2.0, 
     "attack_range": 15.0, 
     "attack_range_grow": 0, 
@@ -43,7 +43,7 @@
     "billboard_scale_y": 1.0, 
     "blood_bar": 393219, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.25, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -89,16 +89,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
+                256, 
+                256, 
                 256, 
                 256, 
                 256, 
@@ -106,17 +98,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
                 256, 
                 256, 
-                256, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
                 256, 
                 256, 
                 256, 
@@ -124,12 +107,29 @@
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
+                0, 
+                0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
@@ -151,13 +151,15 @@
                 0, 
                 0
             ], 
-            1.0
+            1.25
         ]
     }, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134267902, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -228,7 +230,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 130154, 
+    "icon": 107042, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -292,6 +294,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
+    "reward_KzI1zyC+Ee6-JTDQQuc0bk": 0.0, 
     "reward_exp": 5, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
@@ -332,11 +335,28 @@
         "damage": {
             "__tuple__": true, 
             "items": [
-                "lambda unit: Fix32(50)", 
-                [], 
-                "lambda unit: Fix32(50)", 
-                {}, 
-                []
+                "lambda unit: Fix32(20) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                [
+                    [
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(20) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                {
+                    "unit.ability_source.ATTR_BASE.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ]
             ]
         }, 
         "damage_type": 0, 

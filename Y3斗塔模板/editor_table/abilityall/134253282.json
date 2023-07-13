@@ -7,7 +7,7 @@
             "50"
         ]
     }, 
-    "ability_bw_point": 0.5, 
+    "ability_bw_point": 0.0, 
     "ability_cast_point": 0.2, 
     "ability_cast_range": {
         "__tuple__": true, 
@@ -41,7 +41,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 110476, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -110,7 +110,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "collection_animation": "", 
@@ -132,6 +132,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": 77383445, 
     "description": 77383445, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -174,7 +175,12 @@
     "name": 121285664, 
     "need_turn_to_target": false, 
     "pick_count": 1, 
-    "player_props_cost": {}, 
+    "player_props_cost": [
+        [
+            "official_res_1", 
+            100
+        ]
+    ], 
     "precondition_list": {
         "__tuple__": true, 
         "items": []

@@ -781,6 +781,67 @@
             }, 
             "name": "2\u7ea7\u5361"
         }, 
+        "3310244e-1048-4440-bc18-ef51000fc3ac": {
+            "data": {
+                "adapter_option": [
+                    false, 
+                    false, 
+                    true, 
+                    true, 
+                    524.0, 
+                    524.0, 
+                    356.0, 
+                    356.0
+                ], 
+                "children": [], 
+                "comp_anims": [], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "font": {
+                    "__tuple__": true, 
+                    "items": [
+                        "HKWeiBeiW7", 
+                        26
+                    ]
+                }, 
+                "font_color": {
+                    "__tuple__": true, 
+                    "items": [
+                        233, 
+                        203, 
+                        147, 
+                        255
+                    ]
+                }, 
+                "name": "\u901a\u77e5\u4e2d\u5fc3\u6a21\u677f_TEXT", 
+                "open_adapter": true, 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "3310244e-1048-4440-bc18-ef51000fc3ac", 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        1208.0, 
+                        32.0
+                    ]
+                }, 
+                "text": {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u7b2c 1 \u56de \u9ec4\u5dfe\u4fe1\u5f92 \u4f17\u5c06\u58eb\u6765\u88ad\uff01", 
+                        false
+                    ]
+                }, 
+                "type": 3, 
+                "visible": false
+            }, 
+            "name": "\u65b0\u5efa\u81ea\u5b9a\u4e49\u6a21\u5757"
+        }, 
         "58e922b7-0c6a-4f61-af6e-04cf45b2df3c": {
             "data": {
                 "children": [

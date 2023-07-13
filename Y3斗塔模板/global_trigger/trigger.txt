@@ -2,324 +2,266 @@
     "group": [], 
     "key": -1, 
     "key_order": {
-        "KF0OsLKSEe2XPAD-+E6xse": 0, 
-        "auuwDyAfEe6O3gD-FQJxlF": 10
+        "jh4ZsCF9Ee6TxTDQQuc0bo": 25, 
+        "jh9SMCF9Ee65SjDQQuc0bm": 26, 
+        "jhXcTyF9Ee6DaTDQQuc0bt": 6, 
+        "jhZRgCF9Ee6wBTDQQuc0br": 7, 
+        "jhibcCF9Ee6U-jDQQuc0bh": 9, 
+        "jhwd4SF9Ee69bTDQQuc0bs": 15, 
+        "jiGcISF9Ee6DLTDQQuc0bp": 27
     }, 
     "name": "trigger", 
     "sub_trigger": {
-        "1": {
-            "__tuple__": true, 
-            "items": [
-                1872433179, 
-                "t1"
-            ]
-        }, 
-        "2": {
-            "__tuple__": true, 
-            "items": [
-                2094870556, 
-                "t2"
-            ]
-        }, 
-        "3": {
-            "__tuple__": true, 
-            "items": [
-                503767069, 
-                "t1_2"
-            ]
-        }, 
-        "4": {
-            "__tuple__": true, 
-            "items": [
-                269934647, 
-                "\u521d\u7ea7\u6c42\u8d24"
-            ]
-        }, 
-        "5": {
-            "__tuple__": true, 
-            "items": [
-                1238315030, 
-                "\u4e2d\u7ea7\u6c42\u8d24"
-            ]
-        }, 
-        "6": {
-            "__tuple__": true, 
-            "items": [
-                1515851798, 
-                "\u9ad8\u7ea7\u6c42\u8d24"
-            ]
-        }, 
-        "7": {
+        "0": {
             "__tuple__": true, 
             "items": [
                 651382804, 
                 "\u62bd\u5361\u6548\u679c"
             ]
         }, 
-        "8": {
+        "1": {
             "__tuple__": true, 
             "items": [
                 2131804182, 
-                "\u4e70\u5361"
+                "\u9009\u62e9\u5361\u724c"
             ]
         }, 
-        "9": {
+        "2": {
             "__tuple__": true, 
             "items": [
                 13008960, 
                 "\u5efa\u9020\u540e\u5220\u9664\u5361\u724c"
             ]
         }, 
-        "11": {
-            "__tuple__": true, 
-            "items": [
-                56373272, 
-                "on_hero_create"
-            ]
-        }, 
-        "12": {
-            "__tuple__": true, 
-            "items": [
-                1616654361, 
-                "\u5b50\u89e6\u53d1\u5668"
-            ]
-        }, 
-        "13": {
-            "__tuple__": true, 
-            "items": [
-                559689754, 
-                "on_hero_delete"
-            ]
-        }, 
-        "14": {
-            "__tuple__": true, 
-            "items": [
-                224145435, 
-                "on_hero_reborn"
-            ]
-        }, 
-        "15": {
-            "__tuple__": true, 
-            "items": [
-                2103193628, 
-                "on_hero_dead"
-            ]
-        }, 
-        "16": {
-            "__tuple__": true, 
-            "items": [
-                1968975901, 
-                "on_unit_dead"
-            ]
-        }, 
-        "17": {
-            "__tuple__": true, 
-            "items": [
-                1247555614, 
-                "on_unit_delete"
-            ]
-        }, 
-        "18": {
-            "__tuple__": true, 
-            "items": [
-                1784426527, 
-                "MOUSE MOVE"
-            ]
-        }, 
-        "19": {
-            "__tuple__": true, 
-            "items": [
-                257699874, 
-                "Select Unit"
-            ]
-        }, 
-        "20": {
-            "__tuple__": true, 
-            "items": [
-                1683763235, 
-                "Select Unit Group"
-            ]
-        }, 
-        "21": {
-            "__tuple__": true, 
-            "items": [
-                1633431588, 
-                "Select Item"
-            ]
-        }, 
-        "22": {
-            "__tuple__": true, 
-            "items": [
-                945565733, 
-                "Select Destructible"
-            ]
-        }, 
-        "23": {
-            "__tuple__": true, 
-            "items": [
-                1180446758, 
-                "Open Bag"
-            ]
-        }, 
-        "24": {
-            "__tuple__": true, 
-            "items": [
-                1952198695, 
-                "minimap_btn1"
-            ]
-        }, 
-        "25": {
-            "__tuple__": true, 
-            "items": [
-                945565736, 
-                "minimap_btn2"
-            ]
-        }, 
-        "26": {
-            "__tuple__": true, 
-            "items": [
-                1817980970, 
-                "change main unit"
-            ]
-        }, 
-        "27": {
-            "__tuple__": true, 
-            "items": [
-                308031531, 
-                "change main unit by hotkey"
-            ]
-        }, 
-        "28": {
-            "__tuple__": true, 
-            "items": [
-                912011308, 
-                "focu_on_select_unit"
-            ]
-        }, 
-        "29": {
-            "__tuple__": true, 
-            "items": [
-                1314664493, 
-                "release_listener"
-            ]
-        }, 
-        "30": {
-            "__tuple__": true, 
-            "items": [
-                1029451822, 
-                "main_unit_skill_list_value_change"
-            ]
-        }, 
-        "31": {
-            "__tuple__": true, 
-            "items": [
-                157036591, 
-                "show_skill_tips"
-            ]
-        }, 
-        "32": {
-            "__tuple__": true, 
-            "items": [
-                811348016, 
-                "show_inventory_tips"
-            ]
-        }, 
-        "33": {
-            "__tuple__": true, 
-            "items": [
-                2103193649, 
-                "show_bag_tips"
-            ]
-        }, 
-        "34": {
-            "__tuple__": true, 
-            "items": [
-                1247555634, 
-                "show_modifier_tips"
-            ]
-        }, 
-        "35": {
-            "__tuple__": true, 
-            "items": [
-                693907507, 
-                "show_store_tips"
-            ]
-        }, 
-        "36": {
-            "__tuple__": true, 
-            "items": [
-                2136748084, 
-                "hide_tips"
-            ]
-        }, 
-        "37": {
-            "__tuple__": true, 
-            "items": [
-                2119970869, 
-                "sell_item"
-            ]
-        }, 
-        "38": {
-            "__tuple__": true, 
-            "items": [
-                2119970870, 
-                "buy_item"
-            ]
-        }, 
-        "39": {
-            "__tuple__": true, 
-            "items": [
-                1717317687, 
-                "store_tab_click"
-            ]
-        }, 
-        "40": {
-            "__tuple__": true, 
-            "items": [
-                1012674616, 
-                "store_tab_down"
-            ]
-        }, 
-        "41": {
-            "__tuple__": true, 
-            "items": [
-                995897401, 
-                "store_tab_up"
-            ]
-        }, 
-        "42": {
-            "__tuple__": true, 
-            "items": [
-                207368250, 
-                "fresh_sell_list"
-            ]
-        }, 
-        "43": {
-            "__tuple__": true, 
-            "items": [
-                399581244, 
-                "\u751f\u6210\u602a"
-            ]
-        }, 
-        "44": {
+        "3": {
             "__tuple__": true, 
             "items": [
                 1028280383, 
                 "\u6e38\u620f\u52a0\u8f7d"
             ]
         }, 
-        "45": {
+        "4": {
             "__tuple__": true, 
             "items": [
                 212557886, 
-                "\u9009\u62e9\u96be\u5ea6"
+                "\u5f15\u5bfc\u9875\u9762"
             ]
         }, 
-        "46": {
+        "5": {
             "__tuple__": true, 
             "items": [
-                675065917, 
-                "\u6e38\u620f\u5f00\u59cb"
+                399581244, 
+                "\u751f\u6210\u602a"
+            ]
+        }, 
+        "8": {
+            "__tuple__": true, 
+            "items": [
+                286617632, 
+                "\u7ecf\u9a8c\u76d1\u542c"
+            ]
+        }, 
+        "10": {
+            "__tuple__": true, 
+            "items": [
+                1494577191, 
+                "UI\u4e8b\u4ef6_\u70b9\u51fb"
+            ]
+        }, 
+        "11": {
+            "__tuple__": true, 
+            "items": [
+                1628794920, 
+                "UI\u4e8b\u4ef6_\u70b9\u51fb_3"
+            ]
+        }, 
+        "12": {
+            "__tuple__": true, 
+            "items": [
+                1192587305, 
+                "UI\u4e8b\u4ef6_\u79fb\u5165"
+            ]
+        }, 
+        "13": {
+            "__tuple__": true, 
+            "items": [
+                219508778, 
+                "UI\u4e8b\u4ef6_\u79fb\u51fa"
+            ]
+        }, 
+        "14": {
+            "__tuple__": true, 
+            "items": [
+                370503724, 
+                "\u7269\u54c1\u680f\u76d1\u542c"
+            ]
+        }, 
+        "16": {
+            "__tuple__": true, 
+            "items": [
+                957706291, 
+                "\u79fb\u51fa\u7269\u54c1\u680f_2"
+            ]
+        }, 
+        "17": {
+            "__tuple__": true, 
+            "items": [
+                1024815156, 
+                "\u79fb\u5165\u7269\u54c1\u680f_2"
+            ]
+        }, 
+        "18": {
+            "__tuple__": true, 
+            "items": [
+                840265781, 
+                "\u70b9\u51fb\u5546\u5e97\u7269\u54c1\u680f"
+            ]
+        }, 
+        "19": {
+            "__tuple__": true, 
+            "items": [
+                1880453174, 
+                "\u79fb\u51fa\u7269\u54c1\u680f"
+            ]
+        }, 
+        "20": {
+            "__tuple__": true, 
+            "items": [
+                974483511, 
+                "\u79fb\u5165\u7269\u54c1\u680f"
+            ]
+        }, 
+        "21": {
+            "__tuple__": true, 
+            "items": [
+                1404984, 
+                "\u79fb\u5165\u6280\u80fd"
+            ]
+        }, 
+        "22": {
+            "__tuple__": true, 
+            "items": [
+                1226141753, 
+                "\u79fb\u51fa\u6280\u80fd"
+            ]
+        }, 
+        "23": {
+            "__tuple__": true, 
+            "items": [
+                320172090, 
+                "\u79fb\u51fa\u7269\u54c1\u680f_3"
+            ]
+        }, 
+        "24": {
+            "__tuple__": true, 
+            "items": [
+                1024815163, 
+                "\u79fb\u5165\u7269\u54c1\u680f_3"
+            ]
+        }, 
+        "28": {
+            "__tuple__": true, 
+            "items": [
+                1159032904, 
+                "ShopUI\u5173\u95ed"
+            ]
+        }, 
+        "29": {
+            "__tuple__": true, 
+            "items": [
+                1695903817, 
+                "\u70b9\u51fb\u8d2d\u4e70"
+            ]
+        }, 
+        "30": {
+            "__tuple__": true, 
+            "items": [
+                555053130, 
+                "\u70b9\u51fb\u51fa\u552e"
+            ]
+        }, 
+        "31": {
+            "__tuple__": true, 
+            "items": [
+                1192587339, 
+                "\u5355\u4f4d\u5c5e\u6027"
+            ]
+        }, 
+        "32": {
+            "__tuple__": true, 
+            "items": [
+                370503758, 
+                "\u6280\u80fd\u5347\u7ea7"
+            ]
+        }, 
+        "33": {
+            "__tuple__": true, 
+            "items": [
+                1444245583, 
+                "\u5355\u4f4d\u4ea7\u751f"
+            ]
+        }, 
+        "34": {
+            "__tuple__": true, 
+            "items": [
+                857043028, 
+                "\u6e38\u620f\u521d\u59cb\u5316"
+            ]
+        }, 
+        "35": {
+            "__tuple__": true, 
+            "items": [
+                2014670933, 
+                "\u5168\u5c40\u8ba1\u65f6\u5668"
+            ]
+        }, 
+        "36": {
+            "__tuple__": true, 
+            "items": [
+                1310027862, 
+                "\u521d\u59cb\u5316\u53d8\u91cf"
+            ]
+        }, 
+        "37": {
+            "__tuple__": true, 
+            "items": [
+                303394903, 
+                "\u73a9\u5bb6\u521d\u59cb\u5316"
+            ]
+        }, 
+        "38": {
+            "__tuple__": true, 
+            "items": [
+                1645572184, 
+                "\u7a7a\u683c\u9009\u4e2d\u63a7\u5236\u7684\u5355\u4f4d"
+            ]
+        }, 
+        "39": {
+            "__tuple__": true, 
+            "items": [
+                1612017753, 
+                "\u73a9\u5bb6\u7684\u51fb\u6740\u6570\u8ba1\u7b97"
+            ]
+        }, 
+        "40": {
+            "__tuple__": true, 
+            "items": [
+                487944282, 
+                "\u602a\u7269\u51fa\u751f"
+            ]
+        }, 
+        "41": {
+            "__tuple__": true, 
+            "items": [
+                185954395, 
+                "\u602a\u7269\u6b7b\u4ea1"
+            ]
+        }, 
+        "42": {
+            "__tuple__": true, 
+            "items": [
+                940929116, 
+                "\u602a\u7269\u5230\u8fbe\u7ec8\u70b9"
             ]
         }
     }

@@ -14,7 +14,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 100.0, 
+    "attack_phy": 120.0, 
     "attack_phy_grow": 2.0, 
     "attack_range": 6.5, 
     "attack_range_grow": 0, 
@@ -91,18 +91,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
+                256, 
+                256, 
                 256, 
                 256, 
                 256, 
@@ -112,19 +102,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
                 256, 
                 256, 
-                256, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
                 256, 
                 256, 
                 256, 
@@ -134,12 +113,33 @@
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
@@ -166,7 +166,7 @@
                 0, 
                 0
             ], 
-            1.0
+            1.25
         ]
     }, 
     "common_ability_list": {
@@ -243,7 +243,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 130170, 
+    "icon": 107030, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -265,7 +265,7 @@
     "max_stock": 5, 
     "mini_map_icon": 106742, 
     "mini_map_icon_scale": 1.0, 
-    "model": 4045, 
+    "model": 200802, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -330,7 +330,8 @@
     "simple_common_atk": {
         "ability_animations": [
             "attack1", 
-            "attack2"
+            "attack2", 
+            "attack3"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
@@ -349,21 +350,38 @@
         "damage": {
             "__tuple__": true, 
             "items": [
-                "lambda unit: Fix32(50)", 
-                [], 
-                "lambda unit: Fix32(50)", 
-                {}, 
-                []
+                "lambda unit: Fix32(50) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                [
+                    [
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(50) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                {
+                    "unit.ability_source.ATTR_BASE.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ]
             ]
         }, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 102861, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 

@@ -10,7 +10,7 @@
     "disappear_when_dead": false, 
     "get_effect_list": [
         [
-            103631, 
+            103630, 
             {
                 "__tuple__": true, 
                 "items": [
@@ -30,18 +30,18 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    0.8, 
+                    1.25, 
                     0.5, 
-                    0.8
+                    1.25
                 ]
             }, 
             1.0, 
             "root", 
             false, 
-            0
+            2
         ], 
         [
-            103673, 
+            103672, 
             {
                 "__tuple__": true, 
                 "items": [
@@ -61,15 +61,15 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    0.8, 
+                    1.25, 
                     0.1, 
-                    0.8
+                    1.25
                 ]
             }, 
             1.0, 
             "root", 
             false, 
-            0
+            2
         ]
     ], 
     "halo_effect": 0, 

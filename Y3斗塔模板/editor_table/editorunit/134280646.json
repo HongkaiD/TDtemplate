@@ -2,6 +2,10 @@
     "1": 1, 
     "5": 1, 
     "6": 0, 
+    "102": 0, 
+    "104": 500, 
+    "107": 0, 
+    "108": 100, 
     "_custom_": true, 
     "_ref_": 134232450, 
     "affect_techs": {
@@ -17,7 +21,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 100.0, 
+    "attack_phy": 120.0, 
     "attack_phy_grow": 2.0, 
     "attack_range": 10.0, 
     "attack_range_grow": 0, 
@@ -43,7 +47,7 @@
     "billboard_scale_y": 1.0, 
     "blood_bar": 327683, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.25, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -89,16 +93,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
+                256, 
+                256, 
                 256, 
                 256, 
                 256, 
@@ -106,17 +102,8 @@
                 0, 
                 0, 
                 0, 
-                0, 
-                0, 
                 256, 
                 256, 
-                256, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
                 256, 
                 256, 
                 256, 
@@ -124,12 +111,29 @@
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
                 0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
+                0, 
+                0, 
+                256, 
+                256, 
+                256, 
+                256, 
+                256, 
                 0, 
                 0, 
                 0, 
@@ -151,7 +155,7 @@
                 0, 
                 0
             ], 
-            0.8
+            1.25
         ]
     }, 
     "common_ability_list": {
@@ -228,7 +232,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 130133, 
+    "icon": 106814, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -250,7 +254,7 @@
     "max_stock": 5, 
     "mini_map_icon": 106742, 
     "mini_map_icon_scale": 1.0, 
-    "model": 3112, 
+    "model": 200771, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -292,6 +296,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
+    "reward_KzI1zyC+Ee6-JTDQQuc0bk": 0.0, 
     "reward_exp": 5, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
@@ -322,8 +327,8 @@
         "attack_trajectory": {
             "effect": 102892, 
             "follow_scale": true, 
-            "scale": 0.8, 
-            "socket": "weapon2", 
+            "scale": 1.0, 
+            "socket": "missile_attack", 
             "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
@@ -332,28 +337,45 @@
         "damage": {
             "__tuple__": true, 
             "items": [
-                "lambda unit: Fix32(50)", 
-                [], 
-                "lambda unit: Fix32(50)", 
-                {}, 
-                []
+                "lambda unit: Fix32(50) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                [
+                    [
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(50) + Fix32(unit.ability_source.api_get_attr_base('attack_phy'))", 
+                {
+                    "unit.ability_source.ATTR_BASE.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_BASE", 
+                        "attack_phy"
+                    ]
+                ]
             ]
         }, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 102548, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
         "trajectory_radian": 0.2, 
-        "trajectory_speed": 1000.0
+        "trajectory_speed": 2000.0
     }, 
     "sound_event_list": {
         "__tuple__": true, 
