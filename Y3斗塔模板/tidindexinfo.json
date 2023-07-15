@@ -41,6 +41,18 @@
         "item_key": 134280646, 
         "prop_key": "name"
     }, 
+    "-1871106878": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134277615, 
+        "prop_key": "desc"
+    }, 
+    "-1869636089": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134253438, 
+        "prop_key": "name"
+    }, 
     "-1864815354": {
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
@@ -107,11 +119,23 @@
         "item_key": 134229877, 
         "prop_key": "name"
     }, 
+    "-1190796315": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134251181, 
+        "prop_key": "name"
+    }, 
     "-1117704115": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
         "item_key": 134272468, 
         "prop_key": "name"
+    }, 
+    "-1097772981": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134257463, 
+        "prop_key": "desc"
     }, 
     "-1095445221": {
         "editor_type": "editor_unit", 
@@ -125,6 +149,12 @@
         "item_key": 134269638, 
         "prop_key": "name"
     }, 
+    "-978449019": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134265078, 
+        "prop_key": "desc"
+    }, 
     "-971821468": {
         "editor_type": "modifier_all", 
         "index_type": "object_editor", 
@@ -136,6 +166,12 @@
         "index_type": "object_editor", 
         "item_key": 134261025, 
         "prop_key": "name"
+    }, 
+    "-729762308": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134220590, 
+        "prop_key": "desc"
     }, 
     "-702339644": {
         "editor_type": "ability_all", 
@@ -195,6 +231,12 @@
         "editor_type": "modifier_all", 
         "index_type": "object_editor", 
         "item_key": 134272075, 
+        "prop_key": "name"
+    }, 
+    "-364821426": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134265078, 
         "prop_key": "name"
     }, 
     "-290158439": {
@@ -269,6 +311,12 @@
         "item_key": 134274016, 
         "prop_key": "name"
     }, 
+    "-50889986": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134249763, 
+        "prop_key": "name"
+    }, 
     "26829619": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
@@ -303,6 +351,12 @@
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
         "item_key": 134253282, 
+        "prop_key": "name"
+    }, 
+    "205502440": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134277615, 
         "prop_key": "name"
     }, 
     "260691625": {
@@ -419,6 +473,12 @@
         "item_key": 134266826, 
         "prop_key": "name"
     }, 
+    "1410458033": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134249763, 
+        "prop_key": "desc"
+    }, 
     "1410720072": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
@@ -497,6 +557,12 @@
         "item_key": 134266478, 
         "prop_key": "name"
     }, 
+    "1899902685": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134253438, 
+        "prop_key": "desc"
+    }, 
     "1911275949": {
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
@@ -508,6 +574,12 @@
         "index_type": "object_editor", 
         "item_key": 134265686, 
         "prop_key": "name"
+    }, 
+    "2058029480": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134251181, 
+        "prop_key": "desc"
     }, 
     "2059941139": {
         "editor_type": "ability_all", 

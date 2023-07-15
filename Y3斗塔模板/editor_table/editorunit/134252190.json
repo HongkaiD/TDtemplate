@@ -15,9 +15,9 @@
     "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
-    "attack_mag": 0.0, 
+    "attack_mag": 100.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 50.0, 
+    "attack_phy": 100.0, 
     "attack_phy_grow": 2.0, 
     "attack_range": 15.0, 
     "attack_range_grow": 0, 
@@ -37,11 +37,11 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": 0.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 393219, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.25, 
     "build_res_cost_list": {
@@ -156,7 +156,7 @@
     }, 
     "common_ability_list": [
         [
-            134267902, 
+            134259387, 
             1
         ]
     ], 
@@ -319,15 +319,15 @@
             "attack1"
         ], 
         "ability_bw_point": 0.5, 
-        "ability_cast_point": 0.5, 
+        "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
         "attack_range": 15.0, 
         "attack_trajectory": {
-            "effect": 103522, 
+            "effect": 102617, 
             "follow_scale": true, 
             "scale": 0.5, 
-            "socket": "attack1", 
-            "target_socket": "root"
+            "socket": "missile_attack", 
+            "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
         "cast_sound": 0, 
@@ -363,17 +363,17 @@
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 102481, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "trajectory_radian": 0.2, 
-        "trajectory_speed": 1000.0
+        "trajectory_radian": 0.35, 
+        "trajectory_speed": 2000.0
     }, 
     "sound_event_list": {
         "__tuple__": true, 

@@ -167,7 +167,41 @@
     "is_immediate": true, 
     "is_meele": false, 
     "key": 134253282, 
-    "kv": {}, 
+    "kv": {
+        "\u4f20\u8bf4\u5361\u6982\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u4f20\u8bf4\u5361\u6982\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 2, 
+            "value": 0
+        }, 
+        "\u666e\u901a\u5361\u6982\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u666e\u901a\u5361\u6982\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 2, 
+            "value": 90
+        }, 
+        "\u9ad8\u7ea7\u5361\u6982\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u9ad8\u7ea7\u5361\u6982\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 2, 
+            "value": 10
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -210,6 +244,7 @@
             ]
         }
     }, 
+    "reward_official_res_1": 0.0, 
     "sector_angle": {
         "__tuple__": true, 
         "items": [

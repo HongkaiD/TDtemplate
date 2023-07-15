@@ -12,11 +12,11 @@
     "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
-    "attack_mag": 0.0, 
+    "attack_mag": 100.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 50.0, 
+    "attack_phy": 100.0, 
     "attack_phy_grow": 2.0, 
-    "attack_range": 10.0, 
+    "attack_range": 15.0, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
@@ -34,11 +34,11 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": 0.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 393219, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.25, 
     "build_res_cost_list": {
@@ -173,6 +173,10 @@
         [
             134277739, 
             1
+        ], 
+        [
+            134220590, 
+            1
         ]
     ], 
     "common_atk": {
@@ -261,7 +265,19 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134235042, 
-    "kv": {}, 
+    "kv": {
+        "\u661f\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u661f\u7ea7", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 2, 
+            "value": 1
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
@@ -336,11 +352,11 @@
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.5, 
         "attack_interval": 1.0, 
-        "attack_range": 10.0, 
+        "attack_range": 15.0, 
         "attack_trajectory": {
             "effect": 101043, 
             "follow_scale": true, 
-            "scale": 1.0, 
+            "scale": 1.5, 
             "socket": "hand2", 
             "target_socket": "root"
         }, 
@@ -378,17 +394,17 @@
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 101372, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "trajectory_radian": 0.2, 
-        "trajectory_speed": 1000.0
+        "trajectory_radian": 0.5, 
+        "trajectory_speed": 2000.0
     }, 
     "sound_event_list": {
         "__tuple__": true, 

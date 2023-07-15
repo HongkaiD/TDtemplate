@@ -196,16 +196,6 @@
                 "\u9009\u4e2d\u5355\u4f4d": 0
             }
         }, 
-        "399581244": {
-            "variable_dict": {
-                "UNIT_ENTITY": {
-                    "\u5c0f\u5175": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "\u5c0f\u5175": 0
-            }
-        }, 
         "420835373": {
             "variable_dict": {
                 "INTEGER": {
@@ -514,10 +504,14 @@
             "variable_dict": {
                 "PLAYER": {
                     "\u73a9\u5bb6": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "\u9009\u4e2d\u5355\u4f4d": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u73a9\u5bb6": 0
+                "\u73a9\u5bb6": 0, 
+                "\u9009\u4e2d\u5355\u4f4d": 0
             }
         }, 
         "1410691154": {
@@ -608,6 +602,20 @@
                 "\u5355\u4f4d": 0, 
                 "\u6280\u80fd\u69fd\u4f4d\u8868": 0, 
                 "\u73a9\u5bb6": 0
+            }
+        }, 
+        "1523277893": {
+            "variable_dict": {
+                "ABILITY": {
+                    "\u5efa\u9020\u6280\u80fd": null
+                }, 
+                "INTEGER": {
+                    "\u73a9\u5bb6id": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u5efa\u9020\u6280\u80fd": 0, 
+                "\u73a9\u5bb6id": 0
             }
         }, 
         "1612017711": {
@@ -760,17 +768,11 @@
         }, 
         "2131804182": {
             "variable_dict": {
-                "STRING": {
-                    "\u5355\u4f4d\u540d": ""
-                }, 
-                "UNIT_ENTITY": {
-                    "\u6d4b\u8bd5": 0
-                }
+                "ABILITY": {}, 
+                "STRING": {}, 
+                "UNIT_ENTITY": {}
             }, 
-            "variable_length_dict": {
-                "\u5355\u4f4d\u540d": 0, 
-                "\u6d4b\u8bd5": 0
-            }
+            "variable_length_dict": {}
         }, 
         "2132111397": {
             "variable_dict": {
@@ -803,6 +805,12 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
+        "ABILITY": {
+            "\u5efa\u9020\u6280\u80fd\u6570\u7ec4": null
+        }, 
+        "ABILITY_NAME": {
+            "\u6240\u9009\u82f1\u96c4\u5efa\u9020\u6280\u80fd": 0
+        }, 
         "FLOAT": {
             "tips_scale": 0.0, 
             "\u521d\u59cb\u91d1\u5e01": 0.0
@@ -816,15 +824,16 @@
             "\u573a\u4e0a\u602a\u7269\u6570": 0, 
             "\u5f53\u524d\u6ce2\u6570": 0, 
             "\u603b\u6ce2\u6570": 0, 
-            "\u62bd\u5361\u7ed3\u679c\u73a9\u5bb63_2": 0, 
+            "\u6240\u9700\u91d1\u5e01\u6570": 0, 
             "\u65f6\u95f4\u8ba1\u6570": 0, 
+            "\u666e\u901a\u5361\u6570\u91cf": 0, 
             "\u666e\u901a\u5361\u82b1\u8d39": 500, 
             "\u6bcf\u6ce2\u602a\u7269\u6570\u91cf": 0, 
             "\u73a9\u5bb6ID": 0, 
             "\u73a9\u5bb6\u62bd\u5361\u7ed3\u679c": 0, 
             "\u751f\u547d\u503c": 0, 
             "\u7f81\u7eca\u6570": 18, 
-            "\u82f1\u96c4ID": 0, 
+            "\u82f1\u96c4\u5854ID": 0, 
             "\u9ad8\u7ea7\u5361\u82b1\u8d39": 1500
         }, 
         "MODIFIER_ENTITY": {
@@ -844,8 +853,8 @@
             }
         }, 
         "RANDOM_POOL": {
-            "\u968f\u673a\u6c60_\u4e2d\u7ea7\u6c42\u8d24": null, 
-            "\u968f\u673a\u6c60_\u521d\u7ea7\u6c42\u8d24": null, 
+            "\u968f\u673a\u6c60_\u4e2d\u7ea7\u62bd\u5361": null, 
+            "\u968f\u673a\u6c60_\u666e\u901a\u62bd\u5361": null, 
             "\u968f\u673a\u6c60_\u9ad8\u7ea7\u6c42\u8d24": null
         }, 
         "TABLE": {
@@ -899,13 +908,6 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u62bd\u5361\u7ed3\u679c\u73a9\u5bb63_2", 
-                        "\u62bd\u5361\u7ed3\u679c\u73a9\u5bb63_2"
-                    ]
-                }, 
-                {
-                    "__tuple__": true, 
-                    "items": [
                         "\u666e\u901a\u5361\u82b1\u8d39", 
                         "\u666e\u901a\u5361\u82b1\u8d39"
                     ]
@@ -922,6 +924,27 @@
                     "items": [
                         "\u4f20\u8bf4\u5361\u82b1\u8d39", 
                         "\u4f20\u8bf4\u5361\u82b1\u8d39"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6240\u9009\u82f1\u96c4\u5efa\u9020\u6280\u80fd", 
+                        "\u6240\u9009\u82f1\u96c4\u5efa\u9020\u6280\u80fd"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6240\u9700\u91d1\u5e01\u6570", 
+                        "\u6240\u9700\u91d1\u5e01\u6570"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u666e\u901a\u5361\u6570\u91cf", 
+                        "\u666e\u901a\u5361\u6570\u91cf"
                     ]
                 }
             ], 
@@ -960,22 +983,22 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u82f1\u96c4ID", 
-                        "\u82f1\u96c4ID"
+                        "\u82f1\u96c4\u5854ID", 
+                        "\u82f1\u96c4\u5854ID"
                     ]
                 }, 
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u968f\u673a\u6c60_\u521d\u7ea7\u6c42\u8d24", 
-                        "\u968f\u673a\u6c60_\u521d\u7ea7\u6c42\u8d24"
+                        "\u968f\u673a\u6c60_\u666e\u901a\u62bd\u5361", 
+                        "\u968f\u673a\u6c60_\u666e\u901a\u62bd\u5361"
                     ]
                 }, 
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u6c42\u8d24", 
-                        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u6c42\u8d24"
+                        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u62bd\u5361", 
+                        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u62bd\u5361"
                     ]
                 }, 
                 {
@@ -987,7 +1010,7 @@
                 }
             ], 
             "key": "mO30cCAJEe6UCQD-FQJxlM", 
-            "name": "\u6c42\u8d24\u5904"
+            "name": "\u62bd\u5361\u968f\u673a\u6c60"
         }, 
         {
             "group": [
@@ -1127,6 +1150,13 @@
                 "\u6bcf\u6ce2\u602a\u7269\u6570\u91cf", 
                 "\u6bcf\u6ce2\u602a\u7269\u6570\u91cf"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5efa\u9020\u6280\u80fd\u6570\u7ec4", 
+                "\u5efa\u9020\u6280\u80fd\u6570\u7ec4"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1144,11 +1174,14 @@
         "\u5361\u724cID": 0, 
         "\u573a\u4e0a\u602a\u7269\u6570": 0, 
         "\u5df2\u5efa\u9020\u5355\u4f4d\u7ec4": 0, 
+        "\u5efa\u9020\u6280\u80fd\u6570\u7ec4": 0, 
         "\u5f53\u524d\u6ce2\u6570": 0, 
         "\u602a\u7269\u6570\u7ec4": 10, 
         "\u603b\u6ce2\u6570": 0, 
-        "\u62bd\u5361\u7ed3\u679c\u73a9\u5bb63_2": 10, 
+        "\u6240\u9009\u82f1\u96c4\u5efa\u9020\u6280\u80fd": 0, 
+        "\u6240\u9700\u91d1\u5e01\u6570": 0, 
         "\u65f6\u95f4\u8ba1\u6570": 0, 
+        "\u666e\u901a\u5361\u6570\u91cf": 0, 
         "\u666e\u901a\u5361\u82b1\u8d39": 0, 
         "\u6843\u56ed\u7ed3\u4e49": 0, 
         "\u6bcf\u6ce2\u602a\u7269\u6570\u91cf": 0, 
@@ -1158,10 +1191,10 @@
         "\u73a9\u5bb6\u62bd\u5361\u7ed3\u679c": 10, 
         "\u751f\u547d\u503c": 0, 
         "\u7f81\u7eca\u6570": 0, 
-        "\u82f1\u96c4ID": 0, 
+        "\u82f1\u96c4\u5854ID": 0, 
         "\u9009\u5173\u8ba1\u65f6\u5668": 0, 
-        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u6c42\u8d24": 0, 
-        "\u968f\u673a\u6c60_\u521d\u7ea7\u6c42\u8d24": 0, 
+        "\u968f\u673a\u6c60_\u4e2d\u7ea7\u62bd\u5361": 0, 
+        "\u968f\u673a\u6c60_\u666e\u901a\u62bd\u5361": 0, 
         "\u968f\u673a\u6c60_\u9ad8\u7ea7\u6c42\u8d24": 0, 
         "\u9ad8\u7ea7\u5361\u82b1\u8d39": 0
     }

@@ -1,0 +1,2062 @@
+{
+    "local_variable": {
+        "704745475": {
+            "variable_dict": {
+                "SFX_ENTITY": {
+                    "\u4e00\u661f\u7279\u6548": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u4e00\u661f\u7279\u6548": 0
+            }
+        }, 
+        "1776222209": {
+            "variable_dict": {
+                "SFX_ENTITY": {
+                    "\u4e00\u661f\u7279\u6548": 0, 
+                    "\u4e09\u661f\u7279\u6548": 0, 
+                    "\u4e8c\u661f\u7279\u6548": 0, 
+                    "\u4e94\u661f\u7279\u6548": 0, 
+                    "\u56db\u661f\u7279\u6548": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u4e00\u661f\u7279\u6548": 0, 
+                "\u4e09\u661f\u7279\u6548": 0, 
+                "\u4e8c\u661f\u7279\u6548": 0, 
+                "\u4e94\u661f\u7279\u6548": 0, 
+                "\u56db\u661f\u7279\u6548": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "704745475": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100076, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_MODIFIER"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_MOD_STACK"
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                2.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 1323659266000011, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                [
+                                    1561027523, 
+                                    "\u66f4\u65b0 \u661f\u7ea7\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "DELETE_SFX_ENTITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e00\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000011, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e8c\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }, 
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100066, 
+                                                    "args_list": [
+                                                        104054
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "MODIFIER_OWNER"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                0.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                80
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        0.5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        20.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                true, 
+                                                true, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "CREATE_SFX_ON_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1776222209000019, 
+                                    "enable": true
+                                }, 
+                                [
+                                    1019891799, 
+                                    "\u521b\u5efa\u5347\u661f\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "CREATE_SFX_ON_POINT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100066, 
+                                            "args_list": [
+                                                103229
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "MODIFIER_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000148, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                [
+                                    1602630650, 
+                                    "\u8bbe\u7f6e\u82f1\u96c4\u5854\u7684\u5c5e\u6027\u52a0\u6210", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_phy"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000112, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_mag"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000118, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_speed"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000124, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "cd_reduce"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000130, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_max"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000136, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_rec"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                20.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000142, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1323659266000005, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100076, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_MODIFIER"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_MOD_STACK"
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                3.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 704745475000160, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                [
+                                    1042385245, 
+                                    "\u66f4\u65b0 \u661f\u7ea7\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "DELETE_SFX_ENTITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e8c\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000166, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e09\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }, 
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100066, 
+                                                    "args_list": [
+                                                        104055
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "MODIFIER_OWNER"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                0.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                80
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        0.5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        20.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                true, 
+                                                true, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "CREATE_SFX_ON_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000168, 
+                                    "enable": true
+                                }, 
+                                [
+                                    1545164656, 
+                                    "\u521b\u5efa\u5347\u661f\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "CREATE_SFX_ON_POINT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100066, 
+                                            "args_list": [
+                                                103229
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "MODIFIER_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000174, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                [
+                                    1757359433, 
+                                    "\u8bbe\u7f6e\u82f1\u96c4\u5854\u7684\u5c5e\u6027\u52a0\u6210", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_phy"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000178, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_mag"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000183, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_speed"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000188, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "cd_reduce"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000193, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_max"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000198, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_rec"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                50.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000203, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 704745475000158, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100076, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_MODIFIER"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_MOD_STACK"
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                4.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 704745475000222, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                [
+                                    1910856960, 
+                                    "\u66f4\u65b0 \u661f\u7ea7\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "DELETE_SFX_ENTITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e09\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000228, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u56db\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }, 
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100066, 
+                                                    "args_list": [
+                                                        104056
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "MODIFIER_OWNER"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                0.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                80
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        0.5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        20.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                true, 
+                                                true, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "CREATE_SFX_ON_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000230, 
+                                    "enable": true
+                                }, 
+                                [
+                                    1520341498, 
+                                    "\u521b\u5efa\u5347\u661f\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "CREATE_SFX_ON_POINT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100066, 
+                                            "args_list": [
+                                                103229
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "MODIFIER_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000236, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                [
+                                    1806434936, 
+                                    "\u8bbe\u7f6e\u82f1\u96c4\u5854\u7684\u5c5e\u6027\u52a0\u6210", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_phy"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000240, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_mag"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000245, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_speed"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000250, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "cd_reduce"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000255, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_max"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000260, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_rec"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                100.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000265, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 704745475000220, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100076, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_MODIFIER"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_MOD_STACK"
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                5.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 704745475000284, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                [
+                                    2141955431, 
+                                    "\u66f4\u65b0 \u661f\u7ea7\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "DELETE_SFX_ENTITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u56db\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000290, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                [
+                                                    "SFX_ENTITY", 
+                                                    "\u4e94\u661f\u7279\u6548", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 4
+                                        }, 
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100066, 
+                                                    "args_list": [
+                                                        104057
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "MODIFIER_OWNER"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                0.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                80
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        0.5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        20.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                true, 
+                                                true, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "CREATE_SFX_ON_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000292, 
+                                    "enable": true
+                                }, 
+                                [
+                                    1831395636, 
+                                    "\u521b\u5efa\u5347\u661f\u7279\u6548", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "CREATE_SFX_ON_POINT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100066, 
+                                            "args_list": [
+                                                103229
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "MODIFIER_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000298, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                [
+                                    1440717927, 
+                                    "\u8bbe\u7f6e\u82f1\u96c4\u5854\u7684\u5c5e\u6027\u52a0\u6210", 
+                                    704745475, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_phy"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000302, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_mag"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000307, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "attack_speed"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000312, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "cd_reduce"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000317, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_max"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000322, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ATTR", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "MODIFIER_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100300, 
+                                            "args_list": [
+                                                "ATTR_BASE_RATIO"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "mp_rec"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                200.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 704745475000327, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 704745475000282, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1323659266000001, 
+                    "enable": true, 
+                    "event_type": "MODIFIER_LAYER_CHANGE"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1776222209, 
+            "trigger_id": 704745475, 
+            "trigger_name": "\u5347\u661f\u6548\u679c", 
+            "valid": true
+        }, 
+        "1776222209": {
+            "action": [
+                [
+                    1248931136, 
+                    "\u521b\u5efa\u65f6\uff0c\u9ed8\u8ba4\u4e3a\u4e00\u661f\uff0c\u521b\u5efa\u661f\u7ea7\u7279\u6548", 
+                    1776222209, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                [
+                                    "SFX_ENTITY", 
+                                    "\u4e00\u661f\u7279\u6548", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 4
+                        }, 
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100066, 
+                                    "args_list": [
+                                        104053
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "MODIFIER_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }, 
+                                        {
+                                            "arg_type": 100225, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                80
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        0.5
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        20.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                true, 
+                                true, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "CREATE_SFX_ON_POINT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1776222209000019, 
+                    "enable": true
+                }, 
+                704745475
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1776222209000002, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
+            "group_id": 134253438, 
+            "p_trigger_id": null, 
+            "trigger_id": 1776222209, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1776222209, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
+            ], 
+            "key": 134253438, 
+            "name": "134253438"
+        }, 
+        [
+            704745475, 
+            "\u5347\u661f\u6548\u679c"
+        ]
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

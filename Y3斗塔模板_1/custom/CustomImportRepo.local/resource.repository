@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository>
+<Items>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>067603f3-b09c-42e0-8dbd-7cb54d35b85d</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134230278</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>ParticleSystem</Type><Flags>0</Flags><GUID>2a1945c9-c96c-4e5d-b02a-a69173b03075</GUID><Package>Fx_Effect/OtherType/Prop</Package><Class>ParticleSystem</Class><Deps>6395e510-b6c5-4203-9c00-33e213ccbe16</Deps><Deps>5c4c6687-a442-48ce-b81b-f24046f5ec2a</Deps><Deps>9619d8a9-5a23-4720-8e24-d97034942132</Deps><Deps>60cbbe0f-8385-4a76-95e6-86dc59187736</Deps><Name>Prop_zuozhe_qipai_a0003_copy</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Material</Type><Flags>0</Flags><GUID>6395e510-b6c5-4203-9c00-33e213ccbe16</GUID><Package>Fx_Effect/OtherType/Prop</Package><Class>Material</Class><Deps>6cd7de1b-73c5-4d78-8fc8-516df9034a1f</Deps><Deps>f7689f63-447b-4985-8106-3ae21a76c599</Deps><Deps>c5e3e3a2-aa2f-481e-bc52-705d2dd62beb</Deps><Deps>ca8c6272-0e0d-4b6f-8dd7-71b1ecd70b0a</Deps><Deps>facec512-751b-5764-83fb-c925ab98894b</Deps><Deps>5ee7bb4c-278b-43da-a622-cb33fe99e348</Deps><Deps>4494f74e-d465-4391-9a32-fb33ca3e2458</Deps><Deps>9801fbd4-bdff-49bc-8173-9d187ad7ac03</Deps><Deps>8e862ec6-1e6f-43b6-9b0f-fcb43c728cca</Deps><Deps>e8b892dc-ffd9-5c5b-b9f1-b17aff83d618</Deps><Deps>1ccb3622-9bc9-4ccc-9f8d-0542098c4afe</Deps><Name>Prop_zuozhe_qipai_a0003_copy_mat</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>ab692a0c-53e8-439f-9f8d-4275cf196f35</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134268907</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>fe627b02-345e-45aa-9150-0e646387430c</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134226100</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+</Items>
+</Repository>

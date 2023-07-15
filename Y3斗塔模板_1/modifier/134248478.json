@@ -1,0 +1,861 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "1094557697": {
+            "action": [
+                {
+                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                    "args_list": [
+                        {
+                            "arg_type": 100175, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5df2\u83b7\u5f97\u6843\u56ed\u7ed3\u4e49buff"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1094557697000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "PICK_UNIT_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100026, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "PLAYER_UNIT_GROUP"
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "IF_THEN_ELSE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100021, 
+                                            "args_list": [
+                                                {
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100021, 
+                                                            "args_list": [
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100035, 
+                                                                            "args_list": [
+                                                                                "=="
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                134270713
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "UNIT_CLASS_COMPARE", 
+                                                                    "element_id": 1094557697000005, 
+                                                                    "enable": true
+                                                                }, 
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100035, 
+                                                                            "args_list": [
+                                                                                "=="
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                134252024
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "UNIT_CLASS_COMPARE", 
+                                                                    "element_id": 1094557697000006, 
+                                                                    "enable": true
+                                                                }, 
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100035, 
+                                                                            "args_list": [
+                                                                                "=="
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                134266321
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "UNIT_CLASS_COMPARE", 
+                                                                    "element_id": 1094557697000007, 
+                                                                    "enable": true
+                                                                }, 
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100035, 
+                                                                            "args_list": [
+                                                                                "=="
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                134254640
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "UNIT_CLASS_COMPARE", 
+                                                                    "element_id": 1094557697000024, 
+                                                                    "enable": true
+                                                                }, 
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100035, 
+                                                                            "args_list": [
+                                                                                "=="
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100116, 
+                                                                            "args_list": [
+                                                                                134267711
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "UNIT_CLASS_COMPARE", 
+                                                                    "element_id": 1094557697000030, 
+                                                                    "enable": true
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "condition_type": "OR", 
+                                                    "element_id": 1094557697000008, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_UNIT_NAME"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000009, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "attack_phy"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000010, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "hp_max"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000011, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "mp_max"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000012, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "attack_speed"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000013, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "attack_mag"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000014, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BONUS"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "cd_reduce"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100076, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_MODIFIER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u589e\u76ca\u6570\u503c"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_INTEGER_KV"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000015, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_RESULT"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "attack_phy"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000016, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_RESULT"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "hp_max"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000017, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_RESULT"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "mp_max"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000018, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_RESULT"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "attack_speed"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000019, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_RESULT"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "cd_reduce"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1094557697000020, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1094557697000021, 
+                                    "enable": true, 
+                                    "fake_op": [
+                                        2
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1094557697000022, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100076, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_MODIFIER"
+                                }
+                            ], 
+                            "sub_type": "GET_MOD_STACK"
+                        }, 
+                        {
+                            "arg_type": 100015, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100076, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_MODIFIER"
+                                }
+                            ], 
+                            "sub_type": "GET_MOD_STACK_MAX"
+                        }
+                    ], 
+                    "condition_type": "FLOAT_COMPARE", 
+                    "element_id": 1094557697000003, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1094557697000001, 
+                    "enable": true, 
+                    "event_type": "MODIFIER_LAYER_CHANGE"
+                }, 
+                {
+                    "args_list": [], 
+                    "element_id": 1094557697000002, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
+            "group_id": 134248478, 
+            "p_trigger_id": null, 
+            "trigger_id": 1094557697, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1094557697, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
+            ], 
+            "key": 134248478, 
+            "name": "134248478"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

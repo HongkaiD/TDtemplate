@@ -12,11 +12,11 @@
     "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
-    "attack_mag": 0.0, 
+    "attack_mag": 200.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 80.0, 
+    "attack_phy": 200.0, 
     "attack_phy_grow": 2.0, 
-    "attack_range": 10.0, 
+    "attack_range": 15.0, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
@@ -34,11 +34,11 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": 0.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 327683, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.25, 
     "build_res_cost_list": {
@@ -235,10 +235,12 @@
             1.25
         ]
     }, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134221582, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -395,17 +397,17 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "attack1"
+            "attack"
         ], 
         "ability_bw_point": 0.5, 
-        "ability_cast_point": 0.5, 
+        "ability_cast_point": 0.3, 
         "attack_interval": 1.0, 
-        "attack_range": 10.0, 
+        "attack_range": 15.0, 
         "attack_trajectory": {
-            "effect": 101251, 
+            "effect": 104146, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "R-weapon", 
+            "socket": "missile_attack", 
             "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
@@ -442,17 +444,17 @@
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 104453, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "trajectory_radian": 0.0, 
-        "trajectory_speed": 1000.0
+        "trajectory_radian": 0.2, 
+        "trajectory_speed": 2000.0
     }, 
     "sound_event_list": {
         "__tuple__": true, 

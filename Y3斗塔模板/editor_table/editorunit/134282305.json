@@ -17,11 +17,11 @@
     "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
-    "attack_mag": 0.0, 
+    "attack_mag": 100.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 50.0, 
+    "attack_phy": 100.0, 
     "attack_phy_grow": 2.0, 
-    "attack_range": 5.0, 
+    "attack_range": 6.5, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
@@ -39,11 +39,11 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": 0.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 393219, 
+    "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.25, 
     "build_res_cost_list": {
@@ -358,12 +358,13 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "attack1"
+            "attack1", 
+            "attack2"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
-        "attack_range": 5.0, 
+        "attack_range": 6.5, 
         "attack_trajectory": {
             "effect": 103522, 
             "follow_scale": true, 
@@ -405,10 +406,10 @@
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 104064, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
